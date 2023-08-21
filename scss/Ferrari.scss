@@ -172,10 +172,10 @@ body {
 }
 
 .section-blank__input {
-	width: 413px;
-	padding: 19px 20px;
-	
 	input {
+		width: 413px;
+		padding: 19px 20px;
+		background-color: white;
 	}
 }
 
@@ -188,3 +188,5 @@ body {
 .section-blank__text {
 	@include text-16px;
 }
+
+@include menu-lang;

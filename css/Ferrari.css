@@ -282,10 +282,12 @@ body {
   margin-bottom: 1.25rem;
 }
 
-.section-blank__input {
+.section-blank__input input {
   width: 413px;
   padding: 19px 20px;
+  background-color: white;
 }
+
 .section-blank__button {
   background: #F00;
   padding: 20px 66px;
@@ -306,4 +308,94 @@ body {
   font-weight: 500;
   line-height: 140%;
   font-size: 16px;
+}
+
+.body-up__menu-lang {
+  width: 100px;
+}
+
+.menu-lang a {
+  text-decoration: none;
+}
+
+.menu-lang li {
+  position: relative;
+  list-style: none;
+}
+
+.menu-lang__list {
+  display: flex;
+}
+
+.menu-lang__link {
+  margin-left: 12px;
+  color: #fff;
+}
+
+.sub-menu-lang__list {
+  display: none;
+  min-width: 130px;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  padding: 15px;
+}
+
+.sub-menu-lang__list > li {
+  display: flex;
+  gap: 12px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.sub-menu-lang__link {
+  color: #6e6e6e;
+  display: inline-block;
+}
+
+.arrow {
+  display: none;
+  position: absolute;
+  right: -23px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid #fff;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+}
+
+.arrow.active {
+  transform: rotate(-180deg);
+}
+
+.sub-menu-lang__arrow.arrow {
+  right: 10px;
+  border-left: 10px solid #000;
+  border-right: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+body.mouse .menu-lang__list > li:hover .sub-menu-lang__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: rgba(59, 59, 59, 0.6509803922);
+  border-radius: 4px;
+  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
+}
+
+body.touch .sub-menu-lang__list.open {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: rgba(59, 59, 59, 0.6509803922);
+  border-radius: 4px;
+  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
+}
+
+body.touch .arrow {
+  display: block;
 }
