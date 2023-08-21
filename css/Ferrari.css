@@ -163,7 +163,8 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: normal;
-  border-radius: 1px solid #F00;
+  padding: 10px 0px;
+  border-bottom: 1px solid #F00;
 }
 
 .header__messenger-column {
@@ -177,6 +178,11 @@ body {
 
 .main {
   flex: 1 1 auto;
+}
+
+.section-main {
+  background: url("/img/image 20.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
+  background-color: lightgray -57.524px -172.611px/110.351% 172.407%;
 }
 
 .section-main__body {
@@ -247,10 +253,11 @@ body {
 
 .section-main__mouse-down {
   display: flex;
+  align-items: center;
   gap: 1.25rem;
 }
 
-.section-main__text-down {
+.section-main__down-text {
   color: #FFF;
   font-family: Montserrat;
   font-size: 21px;

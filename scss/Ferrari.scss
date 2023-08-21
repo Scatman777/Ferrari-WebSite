@@ -76,7 +76,8 @@ body {
 
 .header__nummber {
 	@include number;
-	border-radius: 1px solid $red;
+	padding: 10px 0px;
+	border-bottom: 1px solid $red;
 }
 
 .header__messenger-column {
@@ -95,6 +96,8 @@ body {
 }
 
 .section-main {
+	background: url("/img/image 20.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
+	background-color: lightgray -57.524px -172.611px / 110.351% 172.407%;
 }
 
 .section-main__body {
@@ -145,9 +148,10 @@ body {
 
 .section-main__mouse-down {
 	display: flex;
+	align-items: center;
 	gap: 1.25rem;
 }
 
-.section-main__text-down {
+.section-main__down-text {
 	@include text-24px;
 }
