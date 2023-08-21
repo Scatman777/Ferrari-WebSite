@@ -1,0 +1,50 @@
+@mixin h1 {
+	color: #FFF;
+	font-family: "Montserrat";
+	font-size: 52px;
+	font-weight: 800;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+@mixin sub-text-36px {
+	color: #FFF;
+	font-family: "Montserrat";
+	font-size: 36px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+@mixin text-24px {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 140%;
+}
+
+@mixin text-18px {
+	color: #FFF;
+	font-family: "Montserrat";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+@mixin number {
+	color: #FFF;
+	font-family: "Montserrat";
+	font-size: 18px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+@mixin button {
+	background: $red;
+	padding: 20px 66px;
+	border-radius: 10px;
+
+	a {
+		@include text-18px;
+	}
+}

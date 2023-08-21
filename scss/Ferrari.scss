@@ -1,0 +1,151 @@
+@import "Ferrari-Null";
+/* Null-Style */
+@import "Ferrari-Mixin";
+/*Mixin*/
+
+$red: #F00;
+/* variables */
+
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+	background: linear-gradient(180deg, #333 0%, #1A1A1A 100%);
+}
+
+._countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    padding: 0px 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+	border: 1px solid rgba(255, 255, 255, 0.616);
+}
+
+////// HEADER ////////////////
+
+.header {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.heade__body {
+	display: flex;
+	align-items: center;
+	margin-top: 2.5rem;
+}
+.header__logo {
+	flex: 1 1 auto;
+	img {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+.header__list {
+	display: flex;
+	gap: 2.5rem;
+	padding: 2.5rem 0px;
+}
+
+.header__item {
+	a {
+		@include text-18px;
+	}
+}
+
+.header__block-contact {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.header__nummber {
+	@include number;
+	border-radius: 1px solid $red;
+}
+
+.header__messenger-column {
+	display: flex;
+	gap: 20px;
+
+	img {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+
+.main {
+	flex: 1 1 auto;
+}
+
+.section-main {
+}
+
+.section-main__body {
+	margin: 7.31rem 0px 5.56rem;
+}
+
+.section-main__title {
+	@include h1;
+	margin-bottom: 1.25rem;
+}
+
+.section-main__text {
+	@include sub-text-36px;
+	margin-bottom: 3.13rem;
+}
+
+.section-main__button {
+	@include button;
+	margin-bottom: 4.69rem;
+}
+
+.section-main__group {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.section-main__column {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid #FFB72B;
+	border-radius: 10px;
+	width: 290px;
+	position: relative;
+
+	img {
+		width: 60px;
+		height: 60px;
+		position: absolute
+	}
+
+	p {
+		@include text-18px;
+	}
+}
+
+.section-main__mouse-down {
+	display: flex;
+}
+
+.section-main__text-down {
+	@include text-24px;
+}
