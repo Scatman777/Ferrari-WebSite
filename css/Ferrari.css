@@ -220,12 +220,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  transform: translateX(5px);
+  margin-bottom: 7.75rem;
 }
 
 .section-main__column {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   border: 1px solid #FFB72B;
   border-radius: 35px 10px 10px 35px;
   width: 290px;
@@ -233,6 +235,7 @@ body {
 .section-main__column img {
   width: 60px;
   height: 60px;
+  transform: translateX(-5px);
 }
 .section-main__column p {
   color: #FFF;
@@ -244,6 +247,7 @@ body {
 
 .section-main__mouse-down {
   display: flex;
+  gap: 1.25rem;
 }
 
 .section-main__text-down {
