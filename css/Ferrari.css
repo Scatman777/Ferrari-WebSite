@@ -287,6 +287,24 @@ body {
   padding: 19px 20px;
   background-color: white;
 }
+.section-blank__input input:-moz-placeholder-shown {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.section-blank__input input:placeholder-shown {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
 
 .section-blank__button {
   background: #F00;

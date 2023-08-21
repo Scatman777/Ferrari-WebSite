@@ -176,6 +176,11 @@ body {
 		width: 413px;
 		padding: 19px 20px;
 		background-color: white;
+		&:placeholder-shown {
+			@include text-18px;
+			font-weight: 400;
+			line-height: 140%;
+		}
 	}
 }
 
