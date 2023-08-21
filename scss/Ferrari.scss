@@ -31,8 +31,7 @@ body {
 	border: 1px solid rgba(255, 255, 255, 0.616);
 }
 
-////// HEADER ////////////////
-
+/////////////// HEADER ///////////////
 .header {
     position: relative;
     width: 100%;
@@ -90,7 +89,7 @@ body {
 	}
 }
 
-
+/////////////// MAIN ///////////////
 .main {
 	flex: 1 1 auto;
 }
@@ -100,8 +99,9 @@ body {
 	background-color: lightgray -57.524px -172.611px / 110.351% 172.407%;
 }
 
+/* SECTION-MAIN__BODY */
 .section-main__body {
-	margin: 7.31rem 0px 5.56rem;
+	margin: 7.31rem 0px 3.5rem;
 }
 
 .section-main__title {
@@ -155,3 +155,5 @@ body {
 .section-main__down-text {
 	@include text-24px;
 }
+
+/* SECTION-MAIN__BODY-CONSULTATION */

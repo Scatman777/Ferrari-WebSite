@@ -15,6 +15,14 @@
 	line-height: normal;
 }
 
+@mixin text-32px{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 140%;
+}
+
 @mixin text-24px {
 	color: #FFF;
 	font-family: Montserrat;
