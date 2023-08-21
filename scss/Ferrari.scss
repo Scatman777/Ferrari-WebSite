@@ -127,14 +127,12 @@ body {
 	align-items: center;
 	gap: 10px;
 	border: 1px solid #FFB72B;
-	border-radius: 10px;
+	border-radius: 35px 10px 10px 35px;
 	width: 290px;
-	position: relative;
 
 	img {
 		width: 60px;
 		height: 60px;
-		position: absolute
 	}
 
 	p {
