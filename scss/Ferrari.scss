@@ -157,3 +157,34 @@ body {
 }
 
 /* SECTION-MAIN__BODY-CONSULTATION */
+.section-main__body-consultation {
+}
+
+.section-main__title-consultation {
+	@include text-32px;
+	margin-bottom: 2.5rem;
+}
+
+.section-main__column-colsuntation {
+	display: flex;
+	gap: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+
+.section-main__input {
+	width: 413px;
+	padding: 19px 20px;
+	
+	input {
+	}
+}
+
+
+
+.section-main__button {
+	@include button;
+}
+
+.section-maim__text-consultation {
+	@include text-16px;
+}

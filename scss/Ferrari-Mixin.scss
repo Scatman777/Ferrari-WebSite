@@ -39,6 +39,11 @@
 	line-height: normal;
 }
 
+@mixin text-16px {
+	@include text-24px;
+	font-size: 16px;
+}
+
 @mixin number {
 	color: #FFF;
 	font-family: "Montserrat";

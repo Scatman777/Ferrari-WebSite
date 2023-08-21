@@ -267,3 +267,34 @@ body {
 }
 
 /* SECTION-MAIN__BODY-CONSULTATION */
+.section-main__title-consultation {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 2.5rem;
+}
+
+.section-main__column-colsuntation {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-main__input {
+  width: 413px;
+  padding: 19px 20px;
+}
+.section-main__button {
+  background: #F00;
+  padding: 20px 66px;
+  border-radius: 10px;
+}
+.section-main__button a {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
