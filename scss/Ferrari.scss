@@ -99,7 +99,7 @@ body {
 	background: url("/img/image 20.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
 }
 
-/* SECTION-MAIN__BODY */
+/* SECTION-MAIN */
 .section-main__body {
 	margin: 7.31rem 0px 3.5rem;
 }
@@ -153,10 +153,10 @@ body {
 }
 
 .section-main__down-text {
-	@include text-24px;
+	@include text-21px;
 }
 
-/* SECTION-MAIN__BODY-CONSULTATION */
+/* SECTION-BLANK */
 .section-blank {
 }
 
@@ -204,8 +204,6 @@ body {
 	}
 }
 
-
-
 .section-blank__button {
 	@include button;
 }
@@ -213,5 +211,56 @@ body {
 .section-blank__text {
 	@include text-16px;
 }
+
+/* SECTION-SERVICES */
+.section-services {
+	background: ;
+}
+
+.section-services__body {
+	display: flex;
+	flex-direction: column;
+	gap: 4.70rem;
+}
+
+.section-services__block-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.section-services__title {
+	@include h1;
+}
+
+.section-services__text {
+	@include text-24px;
+}
+
+.section-services__block-column {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	column-gap: 20px;
+	row-gap: 50px;
+}
+
+.section-services__column {
+	max-width: 335px;
+	width: 100%;
+	height: 100%;
+	img {
+		width: 335px;
+		height: 250px;
+		object-fit: cover;
+		border-radius: 10px;
+		margin-bottom: 20px; 
+	}
+}
+
+.section-services__column-text {
+	@include text-24px;
+}
+
 
 @include menu-lang;

@@ -185,7 +185,7 @@ body {
   background: url("/img/image 20.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
 }
 
-/* SECTION-MAIN__BODY */
+/* SECTION-MAIN */
 .section-main__body {
   margin: 7.31rem 0px 3.5rem;
 }
@@ -266,7 +266,7 @@ body {
   line-height: 140%;
 }
 
-/* SECTION-MAIN__BODY-CONSULTATION */
+/* SECTION-BLANK */
 .section-blank__body-blank {
   background: url("/img/section-blank-image.svg") right no-repeat;
   border: 1px solid #F00;
@@ -349,7 +349,75 @@ body {
   font-size: 21px;
   font-weight: 500;
   line-height: 140%;
+  font-weight: 600;
   font-size: 16px;
+}
+
+/* SECTION-SERVICES */
+.section-services {
+  background: url("");
+}
+
+.section-services__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4.7rem;
+}
+
+.section-services__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.section-services__title {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 52px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.section-services__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+  font-weight: 600;
+}
+
+.section-services__block-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 50px;
+}
+
+.section-services__column {
+  max-width: 335px;
+  width: 100%;
+  height: 100%;
+}
+.section-services__column img {
+  width: 335px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.section-services__column-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+  font-weight: 600;
 }
 
 .section-blank__menu-lang {
