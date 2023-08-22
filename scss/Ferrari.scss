@@ -157,12 +157,19 @@ body {
 }
 
 /* SECTION-MAIN__BODY-CONSULTATION */
-.section-blank__body-blan {
+.section-blank__body-blank {
+	border: 1px solid $red;
+	border-radius: 10px;
+	padding: 2.5rem;
 }
 
 .section-blank__title {
 	@include text-32px;
 	margin-bottom: 2.5rem;
+	span {
+		@include text-32px;
+		color: #FFB72B;
+	}
 }
 
 .section-blank__column {

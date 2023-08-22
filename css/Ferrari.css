@@ -267,6 +267,12 @@ body {
 }
 
 /* SECTION-MAIN__BODY-CONSULTATION */
+.section-blank__body-blank {
+  border: 1px solid #F00;
+  border-radius: 10px;
+  padding: 2.5rem;
+}
+
 .section-blank__title {
   color: #FFF;
   font-family: Montserrat;
@@ -274,6 +280,14 @@ body {
   font-weight: 600;
   line-height: 140%;
   margin-bottom: 2.5rem;
+}
+.section-blank__title span {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #FFB72B;
 }
 
 .section-blank__column {
