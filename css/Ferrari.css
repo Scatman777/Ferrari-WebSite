@@ -100,6 +100,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   min-height: 100%;
+  background: #1A1A1A;
 }
 
 ._countainer {
@@ -182,7 +183,6 @@ body {
 
 .section-main {
   background: url("/img/image 20.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
-  background: linear-gradient(180deg, #333 0%, #1A1A1A 100%);
 }
 
 /* SECTION-MAIN__BODY */
@@ -267,15 +267,12 @@ body {
 }
 
 /* SECTION-MAIN__BODY-CONSULTATION */
-.section-blank {
-  background: #1A1A1A;
-}
-
 .section-blank__body-blank {
   background: url("/img/section-blank-image.svg") right no-repeat;
   border: 1px solid #F00;
   border-radius: 10px;
   padding: 2.5rem;
+  margin: 6.25rem 0px;
 }
 
 .section-blank__title {
