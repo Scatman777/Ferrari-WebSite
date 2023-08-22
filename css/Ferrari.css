@@ -283,6 +283,7 @@ body {
 }
 
 .section-blank__input {
+  position: relative;
   border: 1px solid rgba(51, 51, 51, 0.3);
   border-radius: 10px;
 }
@@ -309,6 +310,9 @@ body {
   font-weight: 400;
   line-height: 140%;
 }
+.section-blank__input input:nth-child(2) {
+  padding: 19px 20px 19px 105px;
+}
 
 .section-blank__button {
   background: #F00;
@@ -332,8 +336,11 @@ body {
   font-size: 16px;
 }
 
-.body-up__menu-lang {
-  width: 100px;
+.section-blank__menu-lang {
+  position: absolute;
+  width: 40px;
+  top: 15px;
+  left: 20px;
 }
 
 .menu-lang a {

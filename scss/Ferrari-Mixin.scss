@@ -65,7 +65,9 @@
 @mixin menu-lang {
     .section-blank__menu-lang {
 		position: absolute;
-        width: 100px;
+		width: 40px;
+		top: 15px;
+		left: 20px;
     }
 
     .menu-lang a{
