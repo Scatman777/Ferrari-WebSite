@@ -590,10 +590,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
+	padding: 2.5rem 0px;
 }
 
 .footer__block-up {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -605,7 +607,7 @@ body {
 }
 .footer__list {
 	display: flex;
-	justify-content: space-between;
+	gap: 2.5rem;
 }
 
 .footer__item {
@@ -615,18 +617,35 @@ body {
 }
 
 .footer__button-up {
+	background: none;
+	img {
+		width: 24px;
+		height: 24px;
+		background: $red;
+		border-radius: 50%;
+		padding: 4px;
+	}
+	a {
+		@include text-18px;
+		line-height: 140%;
+	}
 }
 
 .footer__block-down {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .footer__text-column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
-.footer__text-defence {
-}
-
-.footer__text-political {
+.footer__text {
+	@include text-21px;
+	font-size: 16px;
 }
 
 @include menu-lang;
