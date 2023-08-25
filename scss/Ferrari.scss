@@ -1,6 +1,7 @@
 @import "Ferrari-Null";
 /* Null-Style */
 @import "Ferrari-Mixin";
+@import "Ferrari-Media";
 /*Mixin*/
 
 $red: #F00;
@@ -320,11 +321,13 @@ body {
 
 .section-work__block-column {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 75px 0px 50px 0px;
 }
 
 .section-work__column {
+	margin-bottom: 20px;
 }
 
 .section-work__item {
@@ -346,12 +349,15 @@ body {
 
 .section-work__text-name {
 	@include text-24px;
+	width: 453px;
+	height: 74px;
 	position: absolute;
-	bottom: 20px;
-	left: 20px;
+	bottom: 0px;
+	left: 0px;
 	border-radius: 0px 0px 10px 10px;
 	background: rgba(26, 26, 26, 0.75);
 	backdrop-filter: blur(5px);
+	padding: 20px;
 	color: $red;
 }
 
@@ -361,6 +367,7 @@ body {
 
 .section-work__column-arrow {
 	display: flex;
+	justify-content: center;
 	gap: 30px;
 }
 
@@ -371,6 +378,10 @@ body {
 	img {
 		width: 32px;
 		height: 32px;
+	}
+
+	&:nth-child(2) {
+		transform: rotate(180deg)
 	}
 }
 
