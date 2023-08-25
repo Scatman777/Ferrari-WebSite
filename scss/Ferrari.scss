@@ -221,6 +221,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 4.70rem;
+	margin-bottom: 6.25rem;
 }
 
 .section-services__block-text {
@@ -264,6 +265,10 @@ body {
 
 /* SECTION-ABOUT */
 .section-about__body {
+	display: flex;
+	flex-direction: column;
+	gap: 75px;
+	margin-bottom: 6.25rem;
 }
 
 .section-about__title {
@@ -286,7 +291,7 @@ body {
 }
 
 .section-about__icon {
-	border: 1px solid $red;
+	background-color: $red;
 	margin-bottom: 20px; 
 }
 
