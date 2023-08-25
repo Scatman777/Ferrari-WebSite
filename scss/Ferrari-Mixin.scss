@@ -7,6 +7,11 @@
 	text-transform: uppercase;
 }
 
+@mixin h2 {
+	@include h1;
+	font-size: 42px;
+}
+
 @mixin sub-text-36px {
 	color: #FFF;
 	font-family: "Montserrat";
