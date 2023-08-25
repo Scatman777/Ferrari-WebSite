@@ -86,22 +86,6 @@ h6 {
 }
 
 /* Null-Style */
-/* MEDIA__SECTION-MAIN */
-/* MEDIA__SECTION-BLANK */
-/* MEDIA__SECTION-SERVICES */
-/* MEDIA__SECTION-ABOUT */
-/* MEDIA__SECTION-WORK */
-@media (max-width: 1430px) {
-  .section-work__block-column {
-    justify-content: space-around;
-  }
-  .section-work__colum {
-    padding: 0px 15px;
-  }
-  .section-work__colum:not(:last-child) {
-    margin-bottom: 40px;
-  }
-}
 /*Mixin*/
 /* variables */
 html,
@@ -677,4 +661,21 @@ body.touch .sub-menu-lang__list.open {
 
 body.touch .arrow {
   display: block;
+}
+
+/* MEDIA__SECTION-MAIN */
+/* MEDIA__SECTION-BLANK */
+/* MEDIA__SECTION-SERVICES */
+/* MEDIA__SECTION-ABOUT */
+/* MEDIA__SECTION-WORK */
+@media (max-width: 1430px) {
+  .section-work__block-column {
+    justify-content: space-around;
+  }
+  .section-work__colum {
+    padding: 0px 15px;
+  }
+  .section-work__colum:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }
