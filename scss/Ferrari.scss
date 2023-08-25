@@ -428,7 +428,10 @@ body {
 
 .body-modell__column-arrow {
 	display: flex;
-	gap: 10px;
+	gap: 30px;
+}
+
+.body-modell__arrow {
 	border: 1px solid $red;
 	border-radius: 50%;
 	padding: 14px;

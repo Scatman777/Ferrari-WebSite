@@ -621,16 +621,19 @@ body {
 
 .body-modell__column-arrow {
   display: flex;
-  gap: 10px;
+  gap: 30px;
+}
+
+.body-modell__arrow {
   border: 1px solid #F00;
   border-radius: 50%;
   padding: 14px;
 }
-.body-modell__column-arrow img {
+.body-modell__arrow img {
   width: 32px;
   height: 32px;
 }
-.body-modell__column-arrow:nth-child(2) {
+.body-modell__arrow:nth-child(2) {
   transform: rotate(180deg);
 }
 
