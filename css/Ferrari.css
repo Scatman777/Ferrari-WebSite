@@ -649,6 +649,54 @@ body {
   transform: rotate(180deg);
 }
 
+.section-info__body-contact {
+  display: flex;
+}
+
+.body-contact__title {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 52px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.body-contact__block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.body-contact__item {
+  max-width: 553px;
+  width: 100%;
+  height: 100%;
+}
+
+.body-contact__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.body-contact__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+  font-weight: 700;
+}
+
+.body-contact__sub-text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
 .section-blank__menu-lang {
   position: absolute;
   width: 40px;
