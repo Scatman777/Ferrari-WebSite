@@ -573,7 +573,60 @@ body {
 /* SECTION-MAP */
 .section-map {
 	background: url("/img/Mapsicle Map.svg") center no-repeat;
-	background-size: cover; 
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+}
+
+.section-map__body {
+	transform: translate(52%, 155%);
+}
+
+.footer {
+	background: linear-gradient(180deg, rgba(26, 26, 26, 0.00) 0%, #333 100%);
+}
+
+.footer__body {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.footer__block-up {
+	display: flex;
+	align-items: center;
+}
+
+.footer__logo {
+	img {
+		width: 185px;
+		height: 40px;
+	}
+}
+.footer__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__item {
+	a {
+		@include text-18px;
+	}
+}
+
+.footer__button-up {
+}
+
+.footer__block-down {
+}
+
+.footer__text-column {
+}
+
+.footer__text-defence {
+}
+
+.footer__text-political {
 }
 
 @include menu-lang;
