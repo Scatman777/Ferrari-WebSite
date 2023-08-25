@@ -355,7 +355,7 @@ body {
 
 /* SECTION-SERVICES */
 .section-services {
-  background: url("/img/Ferrari-Back.svg") left center no-repeat;
+  background: url("/img/Ferrari-Back.svg") left 67% no-repeat;
 }
 
 .section-services__body {
