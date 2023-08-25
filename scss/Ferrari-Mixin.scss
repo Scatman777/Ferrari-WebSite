@@ -36,6 +36,11 @@
 	font-weight: 600;
 }
 
+@mixin text-28px {
+	@include text-24px;
+	font-size: 28px;
+}
+
 @mixin text-18px {
 	color: #FFF;
 	font-family: "Montserrat";
