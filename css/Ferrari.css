@@ -496,6 +496,7 @@ body {
 .section-work__block-column {
   display: flex;
   justify-content: space-between;
+  margin: 75px 0px 50px 0px;
 }
 
 .section-work__item {
@@ -506,12 +507,24 @@ body {
 
 .section-work__img {
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 .section-work__img img {
   width: 453px;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.section-work__text-name {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+  font-weight: 600;
+  position: absolute;
+  color: #F00;
 }
 
 .section-work__text {
