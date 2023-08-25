@@ -384,6 +384,64 @@ body {
 	}
 }
 
+/* SECTION-INFO */
+.section-info__body-modell {
+}
+.body-modell {
+}
+
+.body-modell__title {
+	@include h1;
+}
+
+.body-modell__block-column {
+	display: flex;
+	justify-content: space-between;
+}
+
+.body-modell__column {
+}
+
+.body-modell__item {
+	display: flex;
+	align-items: center;
+	max-width: 335px;
+	width: 100%;
+	height: 100%;
+}
+
+.body-modell__block-text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.body-modell__text {
+	@include text-24px;
+	color: $red;
+}
+
+.body-modell__data {
+	@include text-18px;
+	line-height: 140%;
+}
+
+.body-modell__column-arrow {
+	display: flex;
+	gap: 10px;
+	border: 1px solid $red;
+	border-radius: 50%;
+	padding: 14px;
+	img {
+		width: 32px;
+		height: 32px;
+	}
+
+	&:nth-child(2) {
+		transform: rotate(180deg)
+	}
+}
+
 
 @include menu-lang;
 @include media-all;
