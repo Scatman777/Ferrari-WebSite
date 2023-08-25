@@ -33,6 +33,7 @@
 
 @mixin text-24px {
 	@include text-21px;
+	font-size: 24px;
 	font-weight: 600;
 }
 
