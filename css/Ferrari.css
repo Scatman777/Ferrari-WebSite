@@ -571,6 +571,10 @@ body {
 }
 
 /* SECTION-INFO */
+.section-info__body-modell {
+  margin-bottom: 6.25rem;
+}
+
 .body-modell__title {
   color: #FFF;
   font-family: "Montserrat";
@@ -583,12 +587,18 @@ body {
 .body-modell__block-column {
   display: flex;
   justify-content: space-between;
+  margin: 75px 0px 50px 0px;
+}
+
+.body-modell__column {
+  width: 335px;
+  border: 1px solid #F00;
+  border-radius: 20px;
 }
 
 .body-modell__item {
   display: flex;
   align-items: center;
-  max-width: 335px;
   width: 100%;
   height: 100%;
 }
@@ -597,6 +607,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 20px 0px 20px 0px;
 }
 
 .body-modell__text {
@@ -621,6 +632,7 @@ body {
 
 .body-modell__column-arrow {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 
