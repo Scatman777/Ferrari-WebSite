@@ -562,6 +562,13 @@ body {
 	}
 }
 
+.body-contact__select {
+	width: 510px;
+	height: 62px;
+	padding: 19px 20px;
+	border-radius: 10px;
+}
+
 .body-contact__button {
 	@include button;
 }
@@ -581,6 +588,9 @@ body {
 .section-map__body {
 	transform: translate(52%, 155%);
 }
+
+
+
 
 .footer {
 	background: linear-gradient(180deg, rgba(26, 26, 26, 0.00) 0%, #333 100%);
