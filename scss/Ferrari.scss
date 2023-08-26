@@ -4,6 +4,7 @@
 @import "Ferrari-Media";
 /*Mixin*/
 
+$black: #1A1A1A;
 $red: #F00;
 /* variables */
 
@@ -19,7 +20,7 @@ body {
     flex-direction: column;
     overflow: hidden;
     min-height: 100%;
-	background: #1A1A1A;
+	background: $black;
 }
 
 ._countainer {
@@ -39,7 +40,7 @@ body {
     left: 0;
     top: 0;
     z-index: 50;
-	background: linear-gradient(180deg, #333 0%, #1A1A1A 100%);
+	background: linear-gradient(180deg, #333 0%, $black 100%);
 }
 
 .heade__body {
@@ -567,6 +568,13 @@ body {
 	height: 62px;
 	padding: 19px 20px;
 	border-radius: 10px;
+	
+	option {
+		@include text-18px;
+		font-weight: 400;
+		line-height: 140%;
+		color: $black;
+	}
 }
 
 .body-contact__button {
