@@ -797,6 +797,23 @@ body {
   color: rgba(26, 26, 26, 0.5);
 }
 
+.body-contact__select {
+  width: 510px;
+  height: 62px;
+  padding: 19px 20px;
+  border-radius: 10px;
+}
+.body-contact__select span {
+  color: #FFF;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #1A1A1A;
+}
+
 .body-contact__button {
   background: #F00;
   padding: 20px 66px;
