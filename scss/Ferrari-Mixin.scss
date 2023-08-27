@@ -218,6 +218,8 @@
 		border-radius: 20px;
 		border: 2px solid $red;
 		background: $black;
+		background: $black url("/img/popap-image.svg") center no-repeat;
+		background-size: cover;
         width: 690px;
         padding: 50px 98px 50px 82px;
 		z-index: 2;

@@ -1096,6 +1096,8 @@ body.touch .arrow {
   border-radius: 20px;
   border: 2px solid #F00;
   background: #1A1A1A;
+  background: url("/img/popap-image.svg") center no-repeat;
+  background-size: cover;
   width: 690px;
   padding: 50px 98px 50px 82px;
   z-index: 2;
@@ -1151,7 +1153,7 @@ body.touch .arrow {
   background: white;
   padding: 0px 20px;
   border-radius: 10px;
-  width: 510px;
+  width: 506px;
   height: 62px;
 }
 .block-input__column-input input {
