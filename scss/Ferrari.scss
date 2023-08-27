@@ -551,24 +551,19 @@ body {
 .body-contact__input {
 	display: flex;
 	align-items: center;
+	gap: 12px;
 	background: white;
 	padding: 0px 20px;
+	border-radius: 10px;
+	width: 510px;
+	height: 62px;
+
 	input {
-		border-radius: 10px;
-		width: 510px;
-		height: 62px;
 		&:placeholder-shown {
 			@include text-18px;
 			font-weight: 400;
 			line-height: 140%;
 			color: rgba(26, 26, 26, 0.50);
-		}
-	}
-
-	&:nth-child(3) {
-		border-radius: 10px;
-		input {
-			width: 444px;
 		}
 	}
 }

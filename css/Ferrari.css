@@ -773,10 +773,9 @@ body {
 .body-contact__input {
   display: flex;
   align-items: center;
+  gap: 12px;
   background: white;
   padding: 0px 20px;
-}
-.body-contact__input input {
   border-radius: 10px;
   width: 510px;
   height: 62px;
@@ -800,12 +799,6 @@ body {
   font-weight: 400;
   line-height: 140%;
   color: rgba(26, 26, 26, 0.5);
-}
-.body-contact__input:nth-child(3) {
-  border-radius: 10px;
-}
-.body-contact__input:nth-child(3) input {
-  width: 444px;
 }
 
 .body-contact__select {
