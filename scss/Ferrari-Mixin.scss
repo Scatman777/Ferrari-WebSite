@@ -177,7 +177,6 @@
 }
 
 @mixin login-popap {
-
     .login-popap {
         position: fixed;
         width: 100%;
@@ -210,7 +209,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px 10px;
+        padding: 50px 98px 50px 82px;
     }
 
     .login-popap__content {
@@ -275,47 +274,6 @@
         }
     }
 
-    .password {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-
-        svg {
-            position: absolute;
-            margin-right: 16px;
-        }
-    }
-
-    .block-input__column-profile {
-        display: flex;
-        align-items: center;
-    }
-
-    .column-profile__input {
-        flex: 1 1 auto;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-
-        input {
-            width: 16px;
-            height: 16px;
-            accent-color: $green;
-        }
-        
-        span {
-            @include text-14px;
-            color: $gray-800;
-            opacity: 1;
-        }
-    }
-
-    .column-profile__forgot-password {
-        @include text-14px;
-        color: $green;
-        opacity: 1;
-    }
-
     .block-input__button {
         @include button-green-backround;
         justify-content: center;
@@ -323,49 +281,6 @@
     }
 
     .block-input__text-profile {
-        @include text-14px;
-        color: $gray-800;
-        opacity: 1;
-        a {
-            @include text-14px;
-            color: $green;
-            opacity: 1;
-            margin-left: 4px;
-        }
-    }
-
-    .login-popap__block-sing-in-messenger {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        border-top: 1px solid $gray-300;
-    }
-
-    .block-sing-in-messenger {
-        padding-top: 1.5rem;
-    }
-
-    .block-sing-in-messenger__text {
-        @include text-14px;
-        color: $gray-700;
-        opacity: 1;
-    }
-
-    .block-sing-in-messenger__column-icon {
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .block-sing-in-messenger__icon {
-        background-color: #eeefef;
-        padding: 8px;
-
-        &:hover {
-            background-color: #e3eded;
-        }
-        &:hover svg path {
-            fill: $green;
-        }
+		@include button;
     }
 }
