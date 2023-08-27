@@ -550,11 +550,13 @@ body {
 
 .body-contact__input {
 	display: flex;
+	align-items: center;
+	background: white;
+	padding: 0px 20px;
 	input {
 		border-radius: 10px;
 		width: 510px;
 		height: 62px;
-		padding: 19px 20px;
 		&:placeholder-shown {
 			@include text-18px;
 			font-weight: 400;
@@ -564,8 +566,9 @@ body {
 	}
 
 	&:nth-child(3) {
+		border-radius: 10px;
 		input {
-			border-radius: 0px 10px 10px 0px;
+			width: 444px;
 		}
 	}
 }

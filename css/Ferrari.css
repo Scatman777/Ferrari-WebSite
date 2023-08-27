@@ -772,12 +772,14 @@ body {
 
 .body-contact__input {
   display: flex;
+  align-items: center;
+  background: white;
+  padding: 0px 20px;
 }
 .body-contact__input input {
   border-radius: 10px;
   width: 510px;
   height: 62px;
-  padding: 19px 20px;
 }
 .body-contact__input input:-moz-placeholder-shown {
   color: #FFF;
@@ -799,8 +801,11 @@ body {
   line-height: 140%;
   color: rgba(26, 26, 26, 0.5);
 }
+.body-contact__input:nth-child(3) {
+  border-radius: 10px;
+}
 .body-contact__input:nth-child(3) input {
-  border-radius: 0px 10px 10px 0px;
+  width: 444px;
 }
 
 .body-contact__select {
