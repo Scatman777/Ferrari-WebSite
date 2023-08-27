@@ -777,7 +777,7 @@ body {
   background: white;
   padding: 0px 20px;
   border-radius: 10px;
-  width: 510px;
+  width: 506px;
   height: 62px;
 }
 .body-contact__input input:-moz-placeholder-shown {
@@ -802,7 +802,7 @@ body {
 }
 
 .body-contact__select {
-  width: 510px;
+  width: 506px;
   height: 62px;
   padding: 19px 20px;
   border-radius: 10px;
