@@ -200,11 +200,10 @@ body {
 		width: 370px;
 		height: 62px;
 		background: none;
-		&:placeholder-shown {
-			@include text-18px;
-			font-weight: 400;
-			line-height: 140%;
-		}
+		@include text-18px;
+		font-weight: 400;
+		line-height: 140%;
+		color: #1A1A1A;
 	}
 
 	&:nth-child(2) {
@@ -567,12 +566,10 @@ body {
 	height: 62px;
 
 	input {
-		&:placeholder-shown {
-			@include text-18px;
-			font-weight: 400;
-			line-height: 140%;
-			color: rgba(26, 26, 26, 0.50);
-		}
+		@include text-18px;
+		font-weight: 400;
+		line-height: 140%;
+		color: #1A1A1A;
 	}
 }
 

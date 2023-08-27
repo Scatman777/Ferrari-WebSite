@@ -313,8 +313,6 @@ body {
   width: 370px;
   height: 62px;
   background: none;
-}
-.section-blank__input input:-moz-placeholder-shown {
   color: #FFF;
   font-family: "Montserrat";
   font-size: 18px;
@@ -322,15 +320,7 @@ body {
   line-height: normal;
   font-weight: 400;
   line-height: 140%;
-}
-.section-blank__input input:placeholder-shown {
-  color: #FFF;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: normal;
-  font-weight: 400;
-  line-height: 140%;
+  color: #1A1A1A;
 }
 .section-blank__input:nth-child(2) input {
   width: 287px;
@@ -786,7 +776,7 @@ body {
   width: 506px;
   height: 62px;
 }
-.body-contact__input input:-moz-placeholder-shown {
+.body-contact__input input {
   color: #FFF;
   font-family: "Montserrat";
   font-size: 18px;
@@ -794,17 +784,7 @@ body {
   line-height: normal;
   font-weight: 400;
   line-height: 140%;
-  color: rgba(26, 26, 26, 0.5);
-}
-.body-contact__input input:placeholder-shown {
-  color: #FFF;
-  font-family: "Montserrat";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: normal;
-  font-weight: 400;
-  line-height: 140%;
-  color: rgba(26, 26, 26, 0.5);
+  color: #1A1A1A;
 }
 
 .body-contact__select {
