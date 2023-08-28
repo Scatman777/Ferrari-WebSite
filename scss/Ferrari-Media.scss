@@ -2,6 +2,11 @@
 	/////////////////// MEDIA__HEADER ///////////////////
 
 	/* MEDIA__SECTION-MAIN */
+	@media (max-width: 1390) {
+		.section-main {
+			background: url("/img/section-main-img.svg");
+		}
+	}
 
 	/////////////////// MEDIA__MAIN ///////////////////
 
