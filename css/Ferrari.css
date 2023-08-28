@@ -1041,9 +1041,9 @@ body.touch .arrow {
 }
 
 /* MEDIA__SECTION-MAIN */
-@media (max-width: 1390) {
+@media (max-width: 1390px) {
   .section-main {
-    background: url("/img/section-main-img.svg");
+    background: url("/img/section-main-img.svg") bottom right no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
   }
 }
 /* MEDIA__SECTION-BLANK */
