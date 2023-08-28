@@ -190,11 +190,14 @@
         visibility: hidden;
         overflow-y: auto;
         overflow-x: hidden;
+		transition: all 1s;
+		transform: rotate3d(1, 0, 0, 140deg);
     }
      
     .login-popap:target {
         opacity: 1;
         visibility: visible;
+		transform: rotate3d(1, 0, 0, 0deg);
     }
 
     .login-popap__area {
