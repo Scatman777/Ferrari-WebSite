@@ -1272,7 +1272,7 @@ body.touch .arrow {
 
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(46deg) translate(-2px, 0px);
+  transform: rotate(46deg) translate(10px, 0px);
   background: gainsboro;
 }
 
@@ -1283,7 +1283,7 @@ body.touch .arrow {
 
 #menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, 10px);
 }
 
 #menuToggle input:checked ~ ul {
@@ -1296,7 +1296,7 @@ body.touch .arrow {
   position: absolute;
   width: 100vw;
   height: 568px;
-  margin: -20px 0 0 0;
+  margin-top: -39px;
   right: -15px;
   background: linear-gradient(180deg, #333 0%, #1A1A1A 100%);
   list-style-type: none;
@@ -1307,8 +1307,9 @@ body.touch .arrow {
 }
 
 .burger__logo {
-  position: relative;
-  right: 408px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 .burger__logo img {
   width: 30px;
@@ -1320,6 +1321,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  margin-top: 82px;
   margin-bottom: 2.5rem;
 }
 

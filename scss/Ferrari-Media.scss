@@ -9,6 +9,14 @@
 	}
 
 	@media (max-width: $phone) {
+		.header__logo {
+			flex: 0 0 0;
+			img {
+				width: 30px;
+				height: 30px;
+			}
+		}
+
 		.header__list {
 			display: none;
 		}
