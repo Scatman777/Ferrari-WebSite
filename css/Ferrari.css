@@ -88,6 +88,7 @@ h6 {
 /* Null-Style */
 /*Mixin*/
 /* variables */
+/* MEDIA__VARIABLES */
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -1040,10 +1041,14 @@ body.touch .arrow {
 }
 
 /* MEDIA__HEADER */
-.header__list {
-  display: none;
+@media (max-width: 875px) {
+  .header__list {
+    display: none;
+  }
+  .header__block-contact {
+    display: none;
+  }
 }
-
 /* MEDIA__SECTION-MAIN */
 @media (max-width: 1390px) {
   .section-main {
