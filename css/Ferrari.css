@@ -1047,6 +1047,13 @@ body.touch .arrow {
   }
 }
 @media (max-width: 875px) {
+  .header__logo {
+    flex: 0 0 0;
+  }
+  .header__logo img {
+    width: 30px;
+    height: 30px;
+  }
   .header__list {
     display: none;
   }
