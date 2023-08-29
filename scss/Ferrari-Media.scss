@@ -3,6 +3,10 @@
 	/////////////////// MEDIA__HEADER ///////////////////
 	/* MEDIA__HEADER */
 	@media (max-width: $tablet) {
+		.header__body {
+			margin-top: 30px;
+		}
+
 		.header__logo {
 			img {
 				width: 60px;

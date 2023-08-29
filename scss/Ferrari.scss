@@ -47,11 +47,12 @@ body {
 	background: linear-gradient(180deg, #333 0%, $black 100%);
 }
 
-.heade__body {
+.header__body {
 	display: flex;
 	align-items: center;
-	margin-top: 2.5rem;
+	margin-top: 40px;
 }
+
 .header__logo {
 	flex: 1 1 auto;
 	img {
@@ -63,7 +64,6 @@ body {
 .header__list {
 	display: flex;
 	gap: 40px;
-	padding: 2.5rem 0px;
 }
 
 .header__item {
