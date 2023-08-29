@@ -1,11 +1,13 @@
 @mixin media-all {
 
-	/* MEDIA__VARIABLES */
-	$tablet: 1024px;
-	$phone: 875px;
-
 	/////////////////// MEDIA__HEADER ///////////////////
 	/* MEDIA__HEADER */
+	@media (max-width: $tablet) {
+		.header__block-contact {
+			flex-direction: column;
+		}	
+	}
+
 	@media (max-width: $phone) {
 		.header__list {
 			display: none;
@@ -30,6 +32,18 @@
 			background: url("/img/section-main-img.svg") 289px 66.5% no-repeat,
 						url("/img/F812\ SUPER-Media.svg") 56% 39% no-repeat,
 						url("/img/section-main-img2.svg") right no-repeat;
+		}
+
+		.section-main__title {
+			font-size: 32px;
+		}
+
+		.section-main__text {
+			font-size: 24px;
+		}
+
+		.section-main__down-text {
+			font-size: 16px;
 		}
 	}
 

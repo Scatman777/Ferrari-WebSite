@@ -1041,6 +1041,11 @@ body.touch .arrow {
 }
 
 /* MEDIA__HEADER */
+@media (max-width: 1024px) {
+  .header__block-contact {
+    flex-direction: column;
+  }
+}
 @media (max-width: 875px) {
   .header__list {
     display: none;
@@ -1346,7 +1351,7 @@ body.touch .arrow {
 }
 
 /* BURGER-MEDIA */
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 875px) {
   #menuToggle {
     display: block;
   }
