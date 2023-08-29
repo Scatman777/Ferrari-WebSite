@@ -62,7 +62,7 @@ body {
 
 .header__list {
 	display: flex;
-	gap: 2.5rem;
+	gap: 40px;
 	padding: 2.5rem 0px;
 }
 
@@ -77,12 +77,12 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	gap: 2.5rem;
+	gap: 40px;
 }
 
-.header__nummber {
+.header__number {
 	@include number;
-	padding: 10px 0px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid $red;
 }
 

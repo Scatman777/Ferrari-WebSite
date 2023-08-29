@@ -4,12 +4,23 @@
 	/* MEDIA__HEADER */
 	@media (max-width: $tablet) {
 		.header__logo {
-			width: 60px;
-			height: 60px;
+			img {
+				width: 60px;
+				height: 60px;
+			}
+		}
+
+		.header__list {
+			gap: 30px;
 		}
 		
 		.header__block-contact {
 			flex-direction: column;
+			gap: 45px;
+		}
+
+		.header__number {
+			padding-bottom: 5px;
 		}
 	}
 
