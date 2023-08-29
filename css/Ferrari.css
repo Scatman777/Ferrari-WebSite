@@ -1041,6 +1041,9 @@ body.touch .arrow {
 
 /* MEDIA__HEADER */
 @media (max-width: 1024px) {
+  .header__body {
+    margin-top: 30px;
+  }
   .header__logo img {
     width: 60px;
     height: 60px;
@@ -1245,7 +1248,7 @@ body.touch .arrow {
 #menuToggle {
   display: none;
   position: absolute;
-  top: 18px;
+  top: 34px;
   right: 15px;
   z-index: 1;
   -webkit-user-select: none;
@@ -1259,7 +1262,7 @@ body.touch .arrow {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: -7px;
   cursor: pointer;
   opacity: 0;
   z-index: 2;
@@ -1268,7 +1271,7 @@ body.touch .arrow {
 
 #menuToggle span {
   display: block;
-  width: 25px;
+  width: 27px;
   height: 3px;
   margin-bottom: 5px;
   position: relative;
@@ -1290,7 +1293,7 @@ body.touch .arrow {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(46deg) translate(10px, 0px);
-  background: gainsboro;
+  background: #F00;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
