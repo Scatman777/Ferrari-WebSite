@@ -382,6 +382,8 @@
     }
 
     .burger__logo {
+		position: absolute;
+		left: 10px;
         img {
             width: 30px;
             height: 30px;
@@ -426,7 +428,7 @@
 	}
 
 /* BURGER-MEDIA */
-    @media screen and (max-width: 930px) {
+	@media screen and (max-width: 930px) {
         #menuToggle {
             display: block;
         }

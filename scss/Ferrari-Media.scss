@@ -1,5 +1,13 @@
 @mixin media-all {
 	/////////////////// MEDIA__HEADER ///////////////////
+	/* MEDIA__HEADER */
+	.header__list {
+		display: none;
+	}
+
+	.header__block-contact {
+		display: none;
+	}
 
 	/* MEDIA__SECTION-MAIN */
 	@media (max-width: 1390px) {

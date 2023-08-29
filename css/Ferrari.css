@@ -110,7 +110,6 @@ body {
   padding: 0px 15px;
   box-sizing: content-box;
   margin: 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.616);
 }
 
 .header {
@@ -1040,6 +1039,11 @@ body.touch .arrow {
   display: block;
 }
 
+/* MEDIA__HEADER */
+.header__list {
+  display: none;
+}
+
 /* MEDIA__SECTION-MAIN */
 @media (max-width: 1390px) {
   .section-main {
@@ -1282,6 +1286,10 @@ body.touch .arrow {
   transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+.burger__logo {
+  position: absolute;
+  left: 10px;
+}
 .burger__logo img {
   width: 30px;
   height: 30px;
