@@ -1195,7 +1195,7 @@ body.touch .arrow {
 }
 
 /* MEDIA__HEADER */
-@media (max-width: 1074px) {
+@media (max-width: 1024px) {
   .header__body {
     margin-top: 30px;
   }
@@ -1235,7 +1235,7 @@ body.touch .arrow {
     background: url("/img/section-main-img.svg") 272.5px 95% no-repeat, url("/img/F812 SUPER-Media.svg") 77.5% 54% no-repeat, url("/img/section-main-img2.svg") 100% 69% no-repeat;
   }
 }
-@media (max-width: 1074px) {
+@media (max-width: 1024px) {
   .section-main {
     background: url("/img/section-main-img.svg") 272.5px 95% no-repeat, url("/img/F812 SUPER-Media.svg") 77.5% 54% no-repeat, url("/img/section-main-img2.svg") 100% 69% no-repeat;
   }
@@ -1291,7 +1291,7 @@ body.touch .arrow {
   }
 }
 /* MEDIA__SECTION-SERVICES */
-@media (max-width: 1074px) {
+@media (max-width: 1024px) {
   .section-services__body {
     margin-bottom: 60px;
   }
@@ -1305,6 +1305,9 @@ body.touch .arrow {
     justify-content: center;
     row-gap: 40px;
   }
+  .section-services__column {
+    max-width: 295px;
+  }
   .section-services__column img {
     width: 295px;
     height: 238px;
@@ -1314,7 +1317,7 @@ body.touch .arrow {
   }
 }
 /* MEDIA__SECTION-ABOUT */
-@media (max-width: 1074px) {
+@media (max-width: 1024px) {
   .section-about__body {
     gap: 55px;
     margin-bottom: 60px;
@@ -1322,13 +1325,31 @@ body.touch .arrow {
   .section-about__title {
     font-size: 32px;
   }
+  .section-about__item {
+    max-width: 295px;
+  }
+  .section-about__icon {
+    padding: 15px;
+  }
   .section-about__icon img {
     width: 45px;
     height: 45px;
   }
+  .section-about__title-column {
+    font-size: 21px;
+  }
+  .section-about__text-column {
+    font-size: 16px;
+  }
 }
 /* MEDIA__SECTION-WORK */
 @media (max-width: 1430px) {
+  .section-work__body {
+    margin-bottom: 60px;
+  }
+  .section-work__title {
+    font-size: 32px;
+  }
   .section-work__block-column {
     justify-content: space-around;
   }
@@ -1339,7 +1360,7 @@ body.touch .arrow {
     margin-bottom: 40px;
   }
 }
-@media (max-width: 1074px) {
+@media (max-width: 1024px) {
   .login-popap__content {
     width: 452px;
     padding: 30px 20px;

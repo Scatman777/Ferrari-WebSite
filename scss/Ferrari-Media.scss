@@ -154,6 +154,8 @@
 		}
 
 		.section-services__column {
+			max-width: 295px;
+
 			img {
 				width: 295px;
 				height: 238px;
@@ -176,6 +178,10 @@
 			font-size: 32px;
 		}
 
+		.section-about__item {
+			max-width: 295px;
+		}
+
 		.section-about__icon {
 			padding: 15px;
 
@@ -186,16 +192,24 @@
 		}
 
 		.section-about__title-column {
-
+			font-size: 21px;
 		}
 
 		.section-about__text-column {
-			
+			font-size: 16px;
 		}
 	}
 
 	/* MEDIA__SECTION-WORK */
 	@media (max-width: 1430px) {
+		.section-work__body {
+			margin-bottom: 60px;
+		}
+		
+		.section-work__title {
+			font-size: 32px;
+		}
+
 		.section-work__block-column {
 			justify-content: space-around;
 		}
