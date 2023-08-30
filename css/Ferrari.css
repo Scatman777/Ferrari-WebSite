@@ -306,10 +306,10 @@ body {
   border: 1px solid rgba(51, 51, 51, 0.3);
   border-radius: 10px;
   padding: 0px 20px;
-  width: 280px;
+  width: 413px;
 }
 .section-blank__input input {
-  width: 280px;
+  width: 370px;
   height: 62px;
   background: none;
   color: #FFF;
@@ -321,11 +321,8 @@ body {
   line-height: 140%;
   color: #1A1A1A;
 }
-.section-blank__input:nth-child(2) {
-  width: 320px;
-}
 .section-blank__input:nth-child(2) input {
-  width: 215px;
+  width: 287px;
 }
 
 .section-blank__button {
@@ -1260,6 +1257,18 @@ body.touch .arrow {
   .section-blank__column {
     gap: 10px;
     margin-bottom: 30px;
+  }
+  .section-blank__input {
+    width: 280px;
+  }
+  .section-blank__input input {
+    width: 280px;
+  }
+  .section-blank__input:nth-child(2) {
+    width: 320px;
+  }
+  .section-blank__input:nth-child(2) input {
+    width: 215px;
   }
 }
 /* MEDIA__SECTION-SERVICES */
