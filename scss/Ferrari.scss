@@ -9,7 +9,7 @@ $red: #F00;
 /* variables */
 
 /* MEDIA__VARIABLES */
-$tablet: 1024px;
+$tablet: 1074px;
 $phone: 875px;
 
 html,
@@ -300,6 +300,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	gap: 20px;
 }
 
 .section-about__column {

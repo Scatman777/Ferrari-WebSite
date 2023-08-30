@@ -149,7 +149,6 @@
 		}
 
 		.section-services__block-column {
-			justify-content: center;
 			row-gap: 40px;
 		}
 
@@ -167,6 +166,12 @@
 		}
 	}
 
+	@media (max-width: 954px) {
+		.section-services__block-column {
+			justify-content: center;
+		}
+	}
+
 	/* MEDIA__SECTION-ABOUT */
 	@media (max-width: $tablet) {
 		.section-about__body {
@@ -179,7 +184,8 @@
 		}
 
 		.section-about__item {
-			max-width: 295px;
+			max-width: 100%;
+			gap: 20px;
 		}
 
 		.section-about__icon {
