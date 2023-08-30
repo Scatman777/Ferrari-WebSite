@@ -108,30 +108,30 @@ body {
 
 /* SECTION-MAIN */
 .section-main__body {
-	margin: 7.31rem 0px 3.5rem;
+	margin: 117px 0px 56px 0px;
 }
 
 .section-main__title {
 	@include h1;
-	margin-bottom: 1.25rem;
+	margin-bottom: 20px;
 }
 
 .section-main__text {
 	@include sub-text-36px;
-	margin-bottom: 3.13rem;
+	margin-bottom: 50px;
 }
 
 .section-main__button {
 	@include button;
-	margin-bottom: 4.69rem;
+	margin-bottom: 75px;
 }
 
 .section-main__group {
 	display: flex;
 	flex-direction: column;
-	gap: 1.25rem;
+	gap: 20px;
 	transform: translateX(5px);
-	margin-bottom: 7.75rem;
+	margin-bottom: 124px;
 }
 
 .section-main__column {
