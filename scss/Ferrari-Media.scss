@@ -103,6 +103,21 @@
 	/////////////////// MEDIA__MAIN ///////////////////
 
 	/* MEDIA__SECTION-BLANK */
+	@media (max-width: $tablet) {
+		.section-blank__body-blank {
+			margin: 60px 0px;
+			padding: 30px;
+		}
+
+		.section-blank__title {
+			margin-bottom: 30px;
+		}
+
+		.section-blank__column {
+			gap: 10px;
+			margin-bottom: 30px;
+		}
+	}
 
 	/* MEDIA__SECTION-SERVICES */
 

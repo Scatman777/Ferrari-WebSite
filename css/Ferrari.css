@@ -270,8 +270,8 @@ body {
   background: url("/img/section-blank-image.svg") right no-repeat;
   border: 1px solid #F00;
   border-radius: 10px;
-  padding: 2.5rem;
-  margin: 6.25rem 0px;
+  padding: 40px;
+  margin: 100px 0px;
 }
 
 .section-blank__title {
@@ -280,7 +280,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 140%;
-  margin-bottom: 2.5rem;
+  margin-bottom: 40px;
 }
 .section-blank__title span {
   color: #FFF;
@@ -293,8 +293,8 @@ body {
 
 .section-blank__column {
   display: flex;
-  gap: 1.25rem;
-  margin-bottom: 1.25rem;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .section-blank__input {
@@ -306,10 +306,10 @@ body {
   border: 1px solid rgba(51, 51, 51, 0.3);
   border-radius: 10px;
   padding: 0px 20px;
-  width: 413px;
+  width: 280px;
 }
 .section-blank__input input {
-  width: 370px;
+  width: 280px;
   height: 62px;
   background: none;
   color: #FFF;
@@ -321,8 +321,11 @@ body {
   line-height: 140%;
   color: #1A1A1A;
 }
+.section-blank__input:nth-child(2) {
+  width: 320px;
+}
 .section-blank__input:nth-child(2) input {
-  width: 287px;
+  width: 215px;
 }
 
 .section-blank__button {
@@ -1233,6 +1236,9 @@ body.touch .arrow {
   .section-main__button {
     margin-bottom: 40px;
   }
+  .section-main__group {
+    margin-bottom: 138px;
+  }
   .section-main__down-text {
     font-size: 16px;
   }
@@ -1243,6 +1249,19 @@ body.touch .arrow {
   }
 }
 /* MEDIA__SECTION-BLANK */
+@media (max-width: 1024px) {
+  .section-blank__body-blank {
+    margin: 60px 0px;
+    padding: 30px;
+  }
+  .section-blank__title {
+    margin-bottom: 30px;
+  }
+  .section-blank__column {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+}
 /* MEDIA__SECTION-SERVICES */
 /* MEDIA__SECTION-ABOUT */
 /* MEDIA__SECTION-WORK */

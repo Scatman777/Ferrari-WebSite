@@ -171,13 +171,13 @@ body {
 	background: url("/img/section-blank-image.svg") right no-repeat;
 	border: 1px solid $red;
 	border-radius: 10px;
-	padding: 2.5rem;
-	margin: 6.25rem 0px;
+	padding: 40px;
+	margin: 100px 0px;
 }
 
 .section-blank__title {
 	@include text-32px;
-	margin-bottom: 2.5rem;
+	margin-bottom: 40px;
 	span {
 		@include text-32px;
 		color: #FFB72B;
@@ -186,8 +186,8 @@ body {
 
 .section-blank__column {
 	display: flex;
-	gap: 1.25rem;
-	margin-bottom: 1.25rem;
+	gap: 20px;
+	margin-bottom: 20px;
 }
 
 .section-blank__input {
@@ -199,10 +199,10 @@ body {
 	border: 1px solid rgba(51, 51, 51, 0.30);
 	border-radius: 10px;
 	padding: 0px 20px;
-	width: 413px;
+	width: 280px;
 
 	input {
-		width: 370px;
+		width: 280px;
 		height: 62px;
 		background: none;
 		@include text-18px;
@@ -212,8 +212,9 @@ body {
 	}
 
 	&:nth-child(2) {
+		width: 320px;
 		input {
-			width: 287px;
+			width: 215px;
 		}
 	}
 }
