@@ -307,6 +307,7 @@ body {
   border-radius: 10px;
   padding: 0px 20px;
   width: 413px;
+  height: 62px;
 }
 .section-blank__input input {
   width: 370px;
@@ -394,7 +395,6 @@ body {
 .section-services__block-column {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 50px;
@@ -1296,6 +1296,10 @@ body.touch .arrow {
   }
   .section-services__text {
     font-size: 21px;
+  }
+  .section-services__block-column {
+    justify-content: center;
+    row-gap: 40px;
   }
   .section-services__column img {
     width: 295px;
