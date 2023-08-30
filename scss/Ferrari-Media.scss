@@ -135,6 +135,30 @@
 	}
 
 	/* MEDIA__SECTION-SERVICES */
+	@media (max-width: $tablet) {
+		.section-services__body {
+			margin-bottom: 60px;
+		}
+
+		.section-services__title {
+			font-size: 32px;
+		}
+
+		.section-services__text {
+			font-size: 21px;
+		}
+
+		.section-services__column {
+			img {
+				width: 295px;
+				height: 238px;
+			}
+		}
+
+		.section-services__text-column {
+			font-size: 21px;
+		}
+	}
 
 	/* MEDIA__SECTION-ABOUT */
 

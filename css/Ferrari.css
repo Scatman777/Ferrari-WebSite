@@ -1162,6 +1162,11 @@ body.touch .arrow {
   color: #1A1A1A;
 }
 
+.block-input__flag img {
+  width: 40px;
+  height: 30px;
+}
+
 .block-input__button {
   background: #F00;
   padding: 20px 66px;
@@ -1256,7 +1261,7 @@ body.touch .arrow {
   }
 }
 /* MEDIA__SECTION-BLANK */
-@media (max-width: 1024px) {
+@media (max-width: 1242px) {
   .section-blank__body-blank {
     margin: 60px 0px;
     padding: 30px;
