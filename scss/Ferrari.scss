@@ -661,6 +661,7 @@ body {
 		height: 40px;
 	}
 }
+
 .footer__list {
 	display: flex;
 	gap: 2.5rem;
@@ -705,6 +706,6 @@ body {
 }
 
 @include menu-lang;
-@include media-all;
 @include login-popap;
+@include media-all;
 @include burger;
