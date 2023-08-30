@@ -66,13 +66,25 @@
 						url("/img/section-main-img2.svg") 100% 69% no-repeat;
 		}
 
+		.section-main__body {
+			margin: 100px 0px 39px 0px;
+		}
+
 		.section-main__title {
 			font-size: 32px;
-			margin-bottom: ;
 		}
 
 		.section-main__text {
 			font-size: 24px;
+			margin-bottom: 40px;
+		}
+
+		.section-main__button {
+			margin-bottom: 40px;
+		}
+
+		.section-main__group {
+			margin-bottom: 138px;
 		}
 
 		.section-main__down-text {
