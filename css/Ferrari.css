@@ -325,6 +325,11 @@ body {
   width: 287px;
 }
 
+.section-blank__flag img {
+  width: 40px;
+  height: 30px;
+}
+
 .section-blank__button {
   background: #F00;
   padding: 20px 66px;
@@ -799,6 +804,11 @@ body {
   font-weight: 400;
   line-height: 140%;
   color: #1A1A1A;
+}
+
+.body-contact__flag img {
+  width: 40px;
+  height: 30px;
 }
 
 .body-contact__button {
