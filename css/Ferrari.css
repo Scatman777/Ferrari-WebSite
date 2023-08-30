@@ -1363,6 +1363,8 @@ body.touch .arrow {
     height: 221px;
   }
   .section-work__text-name {
+    width: 295px;
+    height: 45px;
     padding: 10px;
     font-size: 18px;
   }
