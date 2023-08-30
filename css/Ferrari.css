@@ -1355,14 +1355,19 @@ body.touch .arrow {
   .section-work__title {
     font-size: 32px;
   }
-  .section-work__block-column {
-    justify-content: space-around;
+  .section-work__item {
+    max-width: 295px;
   }
-  .section-work__column {
-    padding: 0px 15px;
+  .section-work__img img {
+    width: 295px;
+    height: 221px;
   }
-  .section-work__column:not(:last-child) {
-    margin-bottom: 40px;
+  .section-work__text-name {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .section-work__text {
+    font-size: 16px;
   }
 }
 @media (max-width: 1074px) {
