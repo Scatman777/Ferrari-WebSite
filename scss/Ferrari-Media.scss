@@ -148,6 +148,10 @@
 			font-size: 21px;
 		}
 
+		.section-services__block-column {
+			row-gap: 40px;
+		}
+
 		.section-services__column {
 			img {
 				width: 295px;
@@ -155,7 +159,7 @@
 			}
 		}
 
-		.section-services__text-column {
+		.section-services__column-text {
 			font-size: 21px;
 		}
 	}
