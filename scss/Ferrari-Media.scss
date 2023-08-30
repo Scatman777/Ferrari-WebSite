@@ -168,11 +168,29 @@
 	/* MEDIA__SECTION-ABOUT */
 	@media (max-width: $tablet) {
 		.section-about__body {
+			gap: 55px;
 			margin-bottom: 60px;
 		}
 
 		.section-about__title {
 			font-size: 32px;
+		}
+
+		.section-about__icon {
+			padding: 15px;
+
+			img {
+				width: 45px;
+				height: 45px;
+			}
+		}
+
+		.section-about__title-column {
+
+		}
+
+		.section-about__text-column {
+			
 		}
 	}
 

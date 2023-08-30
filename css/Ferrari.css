@@ -462,6 +462,10 @@ body {
   margin-bottom: 20px;
   padding: 20px;
 }
+.section-about__icon img {
+  width: 60px;
+  height: 60px;
+}
 
 .section-about__title-column {
   color: #FFF;
@@ -1310,6 +1314,19 @@ body.touch .arrow {
   }
 }
 /* MEDIA__SECTION-ABOUT */
+@media (max-width: 1074px) {
+  .section-about__body {
+    gap: 55px;
+    margin-bottom: 60px;
+  }
+  .section-about__title {
+    font-size: 32px;
+  }
+  .section-about__icon img {
+    width: 45px;
+    height: 45px;
+  }
+}
 /* MEDIA__SECTION-WORK */
 @media (max-width: 1430px) {
   .section-work__block-column {
