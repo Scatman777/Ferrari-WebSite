@@ -1204,7 +1204,7 @@ body.touch .arrow {
   }
   .header__block-contact {
     flex-direction: column;
-    gap: 45px;
+    gap: 20px;
   }
   .header__number {
     padding-bottom: 5px;

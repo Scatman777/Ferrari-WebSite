@@ -20,7 +20,7 @@
 		
 		.header__block-contact {
 			flex-direction: column;
-			gap: 45px;
+			gap: 20px;
 		}
 
 		.header__number {
@@ -166,6 +166,15 @@
 	}
 
 	/* MEDIA__SECTION-ABOUT */
+	@media (max-width: $tablet) {
+		.section-about__body {
+			margin-bottom: 60px;
+		}
+
+		.section-about__title {
+			font-size: 32px;
+		}
+	}
 
 	/* MEDIA__SECTION-WORK */
 	@media (max-width: 1430px) {
