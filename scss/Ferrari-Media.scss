@@ -253,6 +253,7 @@
 			margin-bottom: 60px;
 		}
 
+		/* BODY-MODELL */
 		.body-modell__title {
 			font-size: 32px;
 		}
@@ -275,6 +276,50 @@
 		.body-modell__data {
 			font-size: 16px;
 		}
+
+		/* BODY-CONTACT */
+		.body-contact__title {
+			font-size: 32px;
+		}
+
+		.body-contact__block-column {
+			gap: 20px;
+			margin: 40px 0px 40px 0px;
+		}
+
+		.body-contact__item {
+			gap: 20px;
+			svg {
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		.body-contact__text {
+			font-size: 21px;
+		}
+
+		.body-contact__sub-text {
+			font-size: 16px;
+		}
+
+		.body-contact__title-messenger {
+			font-size: 21px;
+		}
+
+		/* BODY-CONTACT__INPUT */
+		.body-contact__block-blank {
+			padding: 40px 20px;
+		}
+
+		.body-contact__title-blank {
+			font-size: 32px;
+		}
+
+		.body-contact__text-blank {
+			font-size: 32px;
+		}
+
 	}
 
 	/////////////////// MEDIA__POPAP ///////////////////
