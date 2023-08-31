@@ -483,7 +483,7 @@
 		{
 			position: relative;
 	
-			display: block;
+			display: flex;
 			overflow: hidden;
 	
 			margin: 0;
@@ -539,6 +539,7 @@
 		{
 			display: none;
 			float: left;
+			width: 335px;
 			height: 100%;
 			min-height: 1px;
 		}
@@ -595,7 +596,7 @@
 			z-index: -1;
 		}
 	
-		.sliders .slick-arrow {
+		.body-modell__block-column .slick-arrow {
 			position: absolute;
 			top: 44.5%;
 			z-index: 10;
@@ -603,68 +604,27 @@
 			width: 24px;
 			height: 24px;
 		}
+
+		.body-modell__block-column .slick-list {
+			position: relative;
+			display: flex;
+		}
 	
 		.slick-arrow.slick-prev {
 			left: 0;
-			background: url("/img/down-arrow-3 4.svg") center no-repeat white;
+			background: url("/img/down-arrow-3 4.svg") center no-repeat $red;
 			border-radius: 50%;
 			padding: 24px;
-			margin-left: 32px;
 		}
 	
 		.slick-arrow.slick-next {
 			right: 0;
-			background: url("/img/down-arrow-3 4.svg") center no-repeat white;
+			background: url("/img/down-arrow-3 4.svg") center no-repeat $red;
 			border-radius: 50%;
-			padding: 24px;
-			margin-right: 32px;
-		}
-		  
-		.sliders .slick-dots {
-			display: flex;
-			justify-content: flex-start;
-			align-items: center;
-			gap: 4px;
-			transform: translate(320px, -235px);
+			padding: 14px;
 		}
 	
-		.sliders .slick-dots li {
-			@include number;
-			border-bottom: 2px solid $gray-800;
-			width: 178px;
-			transition: all 0.4s;
-			padding-bottom: 24px;
-			opacity: 0.6000000238418579;
-			&:hover {
-				opacity: 1;
-				color: black;
-			}
-	
-			&:nth-child(1) {
-				background: url("/img/01-number.svg") left no-repeat;
-			}
-			&:nth-child(2) {
-				background: url("/img/02-number.svg") left no-repeat;
-			}
-			&:nth-child(3) {
-				background: url("/img/03-number.svg") left no-repeat;
-			}
-			&:nth-child(4) {
-				background: url("/img/04-number.svg") left no-repeat;
-			}
-		}
-	
-		.sliders .slick-dots li button {
-			@include number;
-			font-size: 0;
-			background: none;
-			&:hover {
-				opacity: 1;
-				color: black;
-			}
-		}
-	
-		.sliders {
-			transform: translateY(-691px);
+		.body-modell__block-column {
+			transform: translate(0px, 0px);
 		}
 }

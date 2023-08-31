@@ -259,7 +259,7 @@
 							<div class="section-info__body-modell body-modell">
 								<h1 class="body-modell__title">Список моделей</h1>
 								<div class="body-modell__block-column">
-									<div class="body-modell__column">
+									<div class="body-modell__column single-slider">
 										<div class="body-modell__item">
 											<img src="/img/section-info-img1.svg" alt="cover">
 											<div class="body-modell__block-text">
@@ -268,7 +268,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-modell__column">
+									<div class="body-modell__column single-slider">
 										<div class="body-modell__item">
 											<img src="/img/section-info-img2.svg" alt="cover">
 											<div class="body-modell__block-text">
@@ -277,7 +277,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-modell__column">
+									<div class="body-modell__column single-slider">
 										<div class="body-modell__item">
 											<img src="/img/section-info-img3.svg" alt="cover">
 											<div class="body-modell__block-text">
@@ -286,7 +286,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-modell__column">
+									<div class="body-modell__column single-slider">
 										<div class="body-modell__item">
 											<img src="/img/section-info-img4.svg" alt="cover">
 											<div class="body-modell__block-text">
@@ -493,9 +493,11 @@
 		<script src="/js/slick.min.js"></script>
 		<script>
 			$(document).ready(function(){
-				$('.body-modell__block-column').slick({
+				$('.sliders').slick({
 					prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
 					nextArrow: '<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
+					autoplay:true,
+					autoplaySpeed: 1500,
 					speed: 1300,
 					easing: 'ease',
 					loop: true,
