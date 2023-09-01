@@ -115,6 +115,12 @@ body {
 	margin: 117px 0px 56px 0px;
 }
 
+.section-main__block-text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 .section-main__title {
 	@include h1;
 	margin-bottom: 20px;

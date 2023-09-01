@@ -193,6 +193,12 @@ body {
   margin: 117px 0px 56px 0px;
 }
 
+.section-main__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .section-main__title {
   color: #FFF;
   font-family: "Montserrat";
@@ -1272,12 +1278,6 @@ body.touch .arrow {
     font-size: 24px;
     margin-bottom: 40px;
   }
-  .section-main__button {
-    display: none;
-  }
-  .button-down {
-    display: block;
-  }
   .section-main__group {
     margin-bottom: 138px;
   }
@@ -1298,7 +1298,13 @@ body.touch .arrow {
   }
   .section-main__text {
     font-size: 15px;
-    margin-bottom: 18;
+    margin-bottom: 0px;
+  }
+  .section-main__button {
+    display: none;
+  }
+  .button-down {
+    display: block;
   }
 }
 /* MEDIA__SECTION-BLANK */
@@ -1495,7 +1501,7 @@ body.touch .arrow {
 #menuToggle {
   display: none;
   position: absolute;
-  top: 35px;
+  top: 26px;
   right: 15px;
   z-index: 1;
   -webkit-user-select: none;
