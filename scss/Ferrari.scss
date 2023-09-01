@@ -108,7 +108,15 @@ body {
 
 /* SECTION-MAIN */
 .section-main__body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 40px;
 	margin: 117px 0px 56px 0px;
+
+	.section-main__button:nth-child(2) {
+		display: none;
+	}
 }
 
 .section-main__title {
@@ -123,7 +131,6 @@ body {
 
 .section-main__button {
 	@include button;
-	margin-bottom: 75px;
 }
 
 .section-main__group {

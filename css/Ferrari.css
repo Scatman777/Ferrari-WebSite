@@ -186,7 +186,14 @@ body {
 
 /* SECTION-MAIN */
 .section-main__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
   margin: 117px 0px 56px 0px;
+}
+.section-main__body .section-main__button:nth-child(2) {
+  display: none;
 }
 
 .section-main__title {
@@ -212,7 +219,6 @@ body {
   background: #F00;
   padding: 20px 66px;
   border-radius: 10px;
-  margin-bottom: 75px;
 }
 .section-main__button a {
   color: #FFF;
@@ -1228,6 +1234,9 @@ body.touch .arrow {
   }
 }
 @media (max-width: 875px) {
+  .header__body {
+    margin-top: 20px;
+  }
   .header__logo {
     flex: 0 0 0;
   }
@@ -1275,6 +1284,17 @@ body.touch .arrow {
 @media (max-width: 875px) {
   .section-main {
     background: url("/img/section-main-img-phone.svg") center no-repeat, url("/img/F812 SUPER-Phone.svg") center no-repeat, url("/img/Ferrari-back-phone.svg") right no-repeat;
+  }
+  .section-main__body {
+    margin: 30px 0px 9px 0px;
+  }
+  .section-main__title {
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+  .section-main__text {
+    font-size: 15px;
+    margin-bottom: 18;
   }
 }
 /* MEDIA__SECTION-BLANK */
