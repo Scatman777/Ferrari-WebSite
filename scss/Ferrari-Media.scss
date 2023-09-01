@@ -37,6 +37,10 @@
 	}
 
 	@media (max-width: $phone) {
+		.header__body {
+			margin-top: 20px;
+		}
+
 		.header__logo {
 			flex: 0 0 0;
 			img {
@@ -101,6 +105,20 @@
 			background: url("/img/section-main-img-phone.svg") center no-repeat,
 						url("/img/F812 SUPER-Phone.svg") center no-repeat,
 						url("/img/Ferrari-back-phone.svg") right no-repeat;
+		}
+
+		.section-main__body {
+			margin: 30px 0px 9px 0px;
+		}
+
+		.section-main__title {
+			font-size: 21px;
+			margin-bottom: 8px;
+		}
+
+		.section-main__text {
+			font-size: 15px;
+			margin-bottom: 18;
 		}
 	}
 
