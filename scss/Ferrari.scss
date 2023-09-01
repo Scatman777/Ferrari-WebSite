@@ -113,10 +113,6 @@ body {
 	align-items: flex-start;
 	gap: 40px;
 	margin: 117px 0px 56px 0px;
-
-	.section-main__button:nth-child(2) {
-		display: none;
-	}
 }
 
 .section-main__title {
@@ -133,12 +129,16 @@ body {
 	@include button;
 }
 
+.button-down {
+	display: none;
+}
+
 .section-main__group {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	transform: translateX(5px);
-	margin-bottom: 119px;
+	margin-bottom: 107px;
 }
 
 .section-main__column {
