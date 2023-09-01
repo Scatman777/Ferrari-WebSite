@@ -86,10 +86,6 @@
 			margin-bottom: 40px;
 		}
 
-		.section-main__button {
-			margin-bottom: 40px;
-		}
-
 		.section-main__group {
 			margin-bottom: 138px;
 		}
@@ -118,6 +114,14 @@
 		.section-main__text {
 			font-size: 15px;
 			margin-bottom: 18;
+		}
+
+		.section-main__button {
+			display: none;
+		}
+
+		.button-down {
+			display: block;
 		}
 	}
 

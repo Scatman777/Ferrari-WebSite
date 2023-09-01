@@ -1273,7 +1273,10 @@ body.touch .arrow {
     margin-bottom: 40px;
   }
   .section-main__button {
-    margin-bottom: 40px;
+    display: none;
+  }
+  .button-down {
+    display: block;
   }
   .section-main__group {
     margin-bottom: 138px;
