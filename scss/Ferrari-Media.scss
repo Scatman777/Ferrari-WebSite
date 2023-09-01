@@ -61,19 +61,18 @@
 	/* MEDIA__SECTION-MAIN */
 	@media (max-width: 1390px) {
 		.section-main {
-			background: url("/img/section-main-img.svg") 87% 92% no-repeat, 
-			url("/img/F812 SUPER-Media.svg") 77.5% 57.5% no-repeat, 
+			background: url("/img/section-main-img.svg") 87% 88% no-repeat, 
+			url("/img/F812 SUPER-Media.svg") 77.5% 54.5% no-repeat, 
 			url("/img/section-main-img2.svg") 100% 69% no-repeat;
 		}
 	}
 
 	@media (max-width: $tablet) {
 		.section-main {
-			background: url("/img/section-main-img.svg") 272.5px 95% no-repeat, 
-						url("/img/F812 SUPER-Media.svg") 77.5% 54% no-repeat, 
-						url("/img/section-main-img2.svg") 100% 69% no-repeat;
+			background: url("/img/section-main-img.svg") 272.5px 82% no-repeat,  
+			 			url("/img/F812 SUPER-Media.svg") 69.5% 50% no-repeat,  
+						url("/img/section-main-img2.svg") 93.5% 59% no-repeat;
 		}
-
 		.section-main__body {
 			margin: 100px 0px 39px 0px;
 		}
