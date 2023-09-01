@@ -124,8 +124,29 @@
 			display: none;
 		}
 
+		.section-main__column {
+			img {
+				width: 35px;
+				height: 35px;
+			}
+			p {
+				font-size: 12px;
+			}
+		}
+
 		.button-down {
 			display: block;
+		}
+
+		.section-main__mouse-down {
+			svg {
+				width: 16.8px;
+				height: 24px;
+			}
+		}
+
+		.section-main__down-text {
+			font-size: 12px;
 		}
 	}
 

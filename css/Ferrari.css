@@ -1292,6 +1292,9 @@ body.touch .arrow {
   .section-main__body {
     margin: 30px 0px 9px 0px;
   }
+  .section-main__block-text {
+    gap: 8px;
+  }
   .section-main__title {
     font-size: 21px;
     margin-bottom: 8px;
@@ -1302,6 +1305,13 @@ body.touch .arrow {
   }
   .section-main__button {
     display: none;
+  }
+  .section-main__column img {
+    width: 35px;
+    height: 35px;
+  }
+  .section-main__column p {
+    font-size: 12px;
   }
   .button-down {
     display: block;
