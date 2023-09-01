@@ -1,5 +1,12 @@
 @mixin media-all {
 
+	/* MEDIA__COUNTAINER */
+	@media (max-width: $phone) {
+		.countainer {
+			padding: 10px 0px;
+		}
+	}
+
 	/////////////////// MEDIA__HEADER ///////////////////
 	/* MEDIA__HEADER */
 	@media (max-width: $tablet) {
@@ -20,6 +27,7 @@
 		
 		.header__block-contact {
 			flex-direction: column;
+			align-items: flex-end;
 			gap: 20px;
 		}
 
@@ -49,7 +57,7 @@
 	/* MEDIA__SECTION-MAIN */
 	@media (max-width: 1390px) {
 		.section-main {
-			background: url("/img/section-main-img.svg") 272.5px 92% no-repeat, 
+			background: url("/img/section-main-img.svg") 87% 92% no-repeat, 
 			url("/img/F812 SUPER-Media.svg") 77.5% 57.5% no-repeat, 
 			url("/img/section-main-img2.svg") 100% 69% no-repeat;
 		}
