@@ -97,17 +97,20 @@
 
 	@media (max-width: $phone) {
 		.section-main {
-			background: url("/img/section-main-img-phone.svg") center no-repeat,
-						url("/img/F812 SUPER-Phone.svg") center no-repeat,
-						url("/img/Ferrari-back-phone.svg") right no-repeat;
+			background: url("/img/section-main-img-phone.svg") left 28% no-repeat, 
+						url("/img/F812 SUPER-Phone.svg") 51% 23.2% no-repeat, 
+						url("/img/Ferrari-back-phone.svg") right 26% no-repeat;
 		}
 
 		.section-main__body {
 			margin: 30px 0px 9px 0px;
 		}
+	}
 
+	@media (max-width: $phone) {
 		.section-main__block-text {
 			gap: 8px;
+			margin-bottom: 163px;
 		}
 
 		.section-main__title {
@@ -136,6 +139,7 @@
 
 		.button-down {
 			display: block;
+			font-size: 15px;
 		}
 
 		.section-main__mouse-down {

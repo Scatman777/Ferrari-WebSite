@@ -11,6 +11,7 @@ $red: #F00;
 /* MEDIA__VARIABLES */
 $tablet: 1074px;
 $phone: 875px;
+$phone-500px: 500px;
 
 html,
 body {
@@ -118,17 +119,17 @@ body {
 .section-main__block-text {
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
 	gap: 20px;
 }
 
 .section-main__title {
 	@include h1;
-	margin-bottom: 20px;
 }
 
 .section-main__text {
 	@include sub-text-36px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .section-main__button {
