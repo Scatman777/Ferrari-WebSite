@@ -2,7 +2,7 @@
 
 	/* MEDIA__COUNTAINER */
 	@media (max-width: $phone) {
-		.countainer {
+		._countainer {
 			padding: 0px 10px;
 		}
 	}
@@ -103,25 +103,13 @@
 		}
 
 		.section-main__body {
-			align-items: center;
 			gap: 25px;
 			margin: 30px 0px 9px 0px;
 		}
-	}
 
-	@media (max-width: $phone) {
 		.section-main__block-text {
 			gap: 8px;
 			margin-bottom: 163px;
-		}
-
-		.section-main__title {
-			font-size: 21px;
-		}
-
-		.section-main__text {
-			font-size: 15px;
-			margin-bottom: 0px;
 		}
 
 		.section-main__group {
@@ -131,6 +119,21 @@
 
 		.section-main__button {
 			display: none;
+		}
+	}
+
+	@media (max-width: $phone-500px) {
+		.section-main__body {
+			align-items: center;
+		}
+
+		.section-main__title {
+			font-size: 21px;
+		}
+
+		.section-main__text {
+			font-size: 15px;
+			margin-bottom: 0px;
 		}
 
 		.section-main__column {
