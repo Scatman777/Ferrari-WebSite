@@ -1290,6 +1290,7 @@ body.touch .arrow {
     background: url("/img/section-main-img-phone.svg") left 28% no-repeat, url("/img/F812 SUPER-Phone.svg") 51% 23.2% no-repeat, url("/img/Ferrari-back-phone.svg") right 26% no-repeat;
   }
   .section-main__body {
+    gap: 25px;
     margin: 30px 0px 9px 0px;
   }
 }
@@ -1303,6 +1304,10 @@ body.touch .arrow {
   }
   .section-main__text {
     font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .section-main__group {
+    gap: 15px;
     margin-bottom: 0px;
   }
   .section-main__button {
