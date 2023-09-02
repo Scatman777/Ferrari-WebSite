@@ -194,6 +194,7 @@ body {
 	margin-bottom: 40px;
 	span {
 		@include text-32px;
+		font-weight: 500;
 		color: #FFB72B;
 	}
 }
