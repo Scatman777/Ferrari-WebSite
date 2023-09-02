@@ -1216,7 +1216,7 @@ body.touch .arrow {
 /* MEDIA__COUNTAINER */
 @media (max-width: 875px) {
   .countainer {
-    padding: 10px 0px;
+    padding: 0px 10px;
   }
 }
 /* MEDIA__HEADER */
@@ -1287,7 +1287,7 @@ body.touch .arrow {
 }
 @media (max-width: 875px) {
   .section-main {
-    background: url("/img/section-main-img-phone.svg") left 28% no-repeat, url("/img/F812 SUPER-Phone.svg") 51% 23.2% no-repeat, url("/img/Ferrari-back-phone.svg") right 26% no-repeat;
+    background: url("/img/section-main-img-phone.svg") left 38% no-repeat, url("/img/F812 SUPER-Phone.svg") 50% 28.8% no-repeat, url("/img/Ferrari-back-phone.svg") right 36.5% no-repeat;
   }
   .section-main__body {
     gap: 25px;
@@ -1322,6 +1322,9 @@ body.touch .arrow {
   }
   .button-down {
     display: block;
+    padding: 15px 62px;
+  }
+  .button-down a {
     font-size: 15px;
   }
   .section-main__mouse-down svg {
