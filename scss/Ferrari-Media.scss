@@ -115,11 +115,15 @@
 
 		.section-main__title {
 			font-size: 21px;
-			margin-bottom: 8px;
 		}
 
 		.section-main__text {
 			font-size: 15px;
+			margin-bottom: 0px;
+		}
+
+		.section-main__group {
+			gap: 25px;
 			margin-bottom: 0px;
 		}
 
