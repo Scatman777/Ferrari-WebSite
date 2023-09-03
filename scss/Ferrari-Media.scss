@@ -373,12 +373,22 @@
 		.section-about__body {
 			gap: 40px;
 		}
+
+		.sectino-about__block-column {
+			gap: 25px;
+		}
+
+		.section-about__item {
+			gap: 8px;
+		}
 		
 		.section-about__title {
 			font-size: 21px;
 		}
 
 		.section-about__icon {
+			margin-bottom: 0px;
+
 			img {
 				width: 25px;
 				height: 25px;
@@ -387,6 +397,7 @@
 
 		.section-about__title-column {
 			font-size: 15px;
+			margin-bottom: 0px;
 		}
 
 		.section-about__text-column {
