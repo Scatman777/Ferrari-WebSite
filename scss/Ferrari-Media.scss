@@ -323,6 +323,8 @@
 		}
 
 		.section-services__column {
+			max-width: 140px;
+
 			img {
 				width: 140px;
 				height: 100px;
@@ -364,6 +366,31 @@
 
 		.section-about__text-column {
 			font-size: 16px;
+		}
+	}
+
+	@media (max-width: $phone-500px) {
+		.section-about__body {
+			gap: 40px;
+		}
+		
+		.section-about__title {
+			font-size: 21px;
+		}
+
+		.section-about__icon {
+			img {
+				width: 25px;
+				height: 25px;
+			}
+		}
+
+		.section-about__title-column {
+			font-size: 15px;
+		}
+
+		.section-about__text-column {
+			font-size: 12px;
 		}
 	}
 
