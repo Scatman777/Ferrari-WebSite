@@ -380,6 +380,7 @@
 
 		.section-about__item {
 			gap: 8px;
+			max-width: 100%;
 		}
 		
 		.section-about__title {
@@ -387,6 +388,7 @@
 		}
 
 		.section-about__icon {
+			padding: 8px;
 			margin-bottom: 0px;
 
 			img {

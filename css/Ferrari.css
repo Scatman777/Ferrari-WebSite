@@ -1505,8 +1505,15 @@ body.touch .arrow {
   .sectino-about__block-column {
     gap: 25px;
   }
+  .section-about__item {
+    gap: 8px;
+    max-width: 100%;
+  }
   .section-about__title {
     font-size: 21px;
+  }
+  .section-about__icon {
+    margin-bottom: 0px;
   }
   .section-about__icon img {
     width: 25px;
@@ -1514,6 +1521,7 @@ body.touch .arrow {
   }
   .section-about__title-column {
     font-size: 15px;
+    margin-bottom: 0px;
   }
   .section-about__text-column {
     font-size: 12px;
