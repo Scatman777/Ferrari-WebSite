@@ -380,7 +380,7 @@
 
 		.section-about__item {
 			gap: 8px;
-			max-width: 100%;
+			max-width: 250px;
 		}
 		
 		.section-about__title {
@@ -442,6 +442,12 @@
 
 		.section-work__text {
 			font-size: 16px;
+		}
+	}
+
+	@media (max-width: $phone-500px) {
+		.section-work__title {
+			font-size: 21px;
 		}
 	}
 
