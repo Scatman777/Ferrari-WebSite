@@ -192,6 +192,7 @@ body {
 .section-blank__title {
 	@include text-32px;
 	margin-bottom: 40px;
+	
 	span {
 		@include text-32px;
 		font-weight: 500;

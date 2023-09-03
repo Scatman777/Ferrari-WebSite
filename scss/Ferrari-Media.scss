@@ -211,7 +211,7 @@
 		}
 	}
 
-	@media (max-width: 625px) {
+	@media (max-width: $phone-500px) {
 		.section-blank__body-blank {
 			text-align: center;
 			background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0.00) 95.29%), url("/img/section-blank-image.svg") lightgray 50% / cover no-repeat;
@@ -236,6 +236,7 @@
 
 			input {
 				width: 100%;
+				font-size: 14px;
 			}
 
 			img {
@@ -248,6 +249,7 @@
 
 				input {
 					width: 100%;
+					font-size: 14px;
 				}
 			}
 		}
@@ -299,6 +301,16 @@
 	@media (max-width: 954px) {
 		.section-services__block-column {
 			justify-content: center;
+		}
+	}
+
+	@media (max-width: $phone-500px) {
+		.section-services__title {
+			font-size: 21px;
+		}
+
+		.section-services__text {
+			font-size: 15px;
 		}
 	}
 

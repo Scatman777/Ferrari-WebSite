@@ -1375,10 +1375,10 @@ body.touch .arrow {
     background-size: contain;
   }
 }
-@media (max-width: 625px) {
+@media (max-width: 500px) {
   .section-blank__body-blank {
     text-align: center;
-    background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0) 95.29%), url("/img/section-blank-image.svg"), lightgray 50%/cover no-repeat;
+    background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0) 95.29%), url("/img/section-blank-image.svg") lightgray 50%/cover no-repeat;
     padding: 25px 10px;
   }
   .section-blank__title {
@@ -1396,6 +1396,7 @@ body.touch .arrow {
   }
   .section-blank__input input {
     width: 100%;
+    font-size: 14px;
   }
   .section-blank__input img {
     width: 14px;
@@ -1406,6 +1407,7 @@ body.touch .arrow {
   }
   .section-blank__input:nth-child(2) input {
     width: 100%;
+    font-size: 14px;
   }
   .section-blank__flag img {
     width: 28px;
