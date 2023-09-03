@@ -241,6 +241,12 @@
 				width: 14px;
 				height: 14px;
 			}
+
+			&:nth-child(2) {
+				input {
+					width: 100%;
+				}
+			}
 		}
 
 		.section-blank__flag {
