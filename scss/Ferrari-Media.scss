@@ -305,6 +305,10 @@
 	}
 
 	@media (max-width: $phone-500px) {
+		.section-services__body {
+			gap: 40px;
+		}
+
 		.section-services__title {
 			font-size: 21px;
 		}
