@@ -549,10 +549,34 @@
 
 		.body-contact__item {
 			gap: 8px;
+			
+			svg {
+				width: 24px;
+				height: 24px;
+			}
 		}
 		
 		.body-contact__block-text {
 			gap: 8px;
+		}
+
+		.body-contact__text {
+			font-size: 12px;
+		}
+
+		.body-contact__sub-text {
+			font-size: 12px;
+		}
+
+		.body-contact__title-messenger {
+			font-size: 12px;
+		}
+
+		.body-contact__column-messenger {
+			img {
+				width: 30px;
+				height: 30px;
+			}
 		}
 	}
 
