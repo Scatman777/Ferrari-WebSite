@@ -542,6 +542,12 @@
 
 	}
 
+	@media (max-width: 905px) {
+		.section-info__body-contact {
+			flex-direction: column;
+		}
+	}
+
 	@media (max-width: $phone-500px) {
 		.section-info__title {
 			font-size: 21px;
@@ -577,6 +583,18 @@
 				width: 30px;
 				height: 30px;
 			}
+		}
+
+		.body-contact__block-blank {
+			padding: 25px 10px;
+		}
+
+		.body-contact__title-blank {
+			font-size: 21px;
+		}
+
+		.body-contact__text-blank {
+			font-size: 16px;
 		}
 	}
 

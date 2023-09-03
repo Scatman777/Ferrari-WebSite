@@ -693,6 +693,7 @@ body {
 .section-info__body-contact {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .body-contact__title {
@@ -1641,6 +1642,39 @@ body.touch .arrow {
   }
   .body-contact__text-down {
     font-size: 16px;
+  }
+}
+@media (max-width: 905px) {
+  .section-info__body-contact {
+    flex-direction: column;
+  }
+}
+@media (max-width: 630px) {
+  .section-info__title {
+    font-size: 21px;
+  }
+  .body-contact__item {
+    gap: 8px;
+  }
+  .body-contact__item svg {
+    width: 24px;
+    height: 24px;
+  }
+  .body-contact__block-text {
+    gap: 8px;
+  }
+  .body-contact__text {
+    font-size: 12px;
+  }
+  .body-contact__sub-text {
+    font-size: 12px;
+  }
+  .body-contact__title-messenger {
+    font-size: 12px;
+  }
+  .body-contact__column-messenger img {
+    width: 30px;
+    height: 30px;
   }
 }
 @media (max-width: 1074px) {
