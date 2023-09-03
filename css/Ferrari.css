@@ -428,8 +428,7 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
-.section-services__column-text {
+.section-services__column p {
   color: #FFF;
   font-family: Montserrat;
   font-size: 21px;
@@ -1438,13 +1437,33 @@ body.touch .arrow {
     width: 295px;
     height: 238px;
   }
-  .section-services__column-text {
+  .section-services__column p {
     font-size: 21px;
   }
 }
 @media (max-width: 954px) {
   .section-services__block-column {
     justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .section-services__title {
+    font-size: 21px;
+  }
+  .section-services__text {
+    font-size: 15px;
+  }
+  .section-services__block-column {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    row-gap: 20px;
+  }
+  .section-services__column img {
+    width: 140px;
+    height: 100px;
+  }
+  .section-services__column p {
+    font-size: 12px;
   }
 }
 /* MEDIA__SECTION-ABOUT */
