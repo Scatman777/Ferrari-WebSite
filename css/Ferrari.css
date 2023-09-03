@@ -1558,6 +1558,15 @@ body.touch .arrow {
     font-size: 16px;
   }
 }
+@media (max-width: 630px) {
+  .section-work__title {
+    font-size: 21px;
+  }
+  .section-work__img img {
+    width: 300px;
+    height: 200px;
+  }
+}
 /* MEDIA__SECTION-INFO */
 @media (max-width: 1074px) {
   .section-info__body {
