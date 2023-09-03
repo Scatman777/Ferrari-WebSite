@@ -312,6 +312,22 @@
 		.section-services__text {
 			font-size: 15px;
 		}
+
+		.section-services__block-column {
+			column-gap: 10px;
+			row-gap: 20px;
+		}
+
+		.section-services__column {
+			img {
+				width: 140px;
+				height: 100px;
+			}
+
+			p {
+				
+			}
+		}
 	}
 
 	/* MEDIA__SECTION-ABOUT */
