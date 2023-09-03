@@ -609,13 +609,13 @@ body {
   text-transform: uppercase;
 }
 
-.body-modell__block-column .swiper-wrapper {
+.swiper-wrapper {
   display: flex;
   justify-content: space-between;
   margin: 75px 0px 50px 0px;
 }
 
-.body-modell__column .swiper-slide {
+.swiper-slide {
   width: 335px;
   border: 1px solid #F00;
   border-radius: 20px;
@@ -665,19 +665,19 @@ body {
   gap: 30px;
 }
 
-.body-modell__arrow-prev .swiper-button-next, .swiper-rtl .swiper-button-prev {
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
   border: 1px solid #F00;
   border-radius: 50%;
   padding: 14px;
   right: 140px !important;
   left: auto;
 }
-.body-modell__arrow-prev .swiper-button-next img, .swiper-rtl .swiper-button-prev img {
+.swiper-button-prev img, .swiper-rtl .swiper-button-next img {
   width: 32px;
   height: 32px;
 }
 
-.body-modell__arrow-next .swiper-button-prev, .swiper-rtl .swiper-button-next {
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
   border: 1px solid #F00;
   border-radius: 50%;
   padding: 14px;
@@ -685,7 +685,7 @@ body {
   left: 140px !important;
   right: auto;
 }
-.body-modell__arrow-next .swiper-button-prev img, .swiper-rtl .swiper-button-next img {
+.swiper-button-next img, .swiper-rtl .swiper-button-prev img {
   width: 32px;
   height: 32px;
 }
