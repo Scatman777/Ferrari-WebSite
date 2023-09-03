@@ -211,8 +211,9 @@
 		}
 	}
 
-	@media (max-width: $phone) {
+	@media (max-width: 705px) {
 		.section-blank__body-blank {
+			background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0.00) 95.29%), url("/img/section-blank-image.svg"), lightgray 50% / cover no-repeat;
 			padding: 25px 10px;
 		}
 
@@ -230,15 +231,23 @@
 		}
 
 		.section-blank__input {
+			width: 100%;
+
 			input {
 				width: 100%;
+			}
+		}
+
+		.section-blank__flag {
+			img {
+				width: 28px;
+				height: 21px;
 			}
 		}
 
 		.section-blank__text {
 			font-size: 12px;
 		}
-	
 	}
 
 	/* MEDIA__SECTION-SERVICES */

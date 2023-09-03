@@ -1375,6 +1375,31 @@ body.touch .arrow {
     background-size: contain;
   }
 }
+@media (max-width: 705px) {
+  .section-blank__body-blank {
+    background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0) 95.29%), url("/img/section-blank-image.svg"), lightgray 50%/cover no-repeat;
+    padding: 25px 10px;
+  }
+  .section-blank__title {
+    font-size: 16px;
+  }
+  .section-blank__title span {
+    font-size: 16px;
+  }
+  .section-blank__column {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-blank__input {
+    width: 100%;
+  }
+  .section-blank__input input {
+    width: 100%;
+  }
+  .section-blank__text {
+    font-size: 12px;
+  }
+}
 /* MEDIA__SECTION-SERVICES */
 @media (max-width: 1074px) {
   .section-services__body {
