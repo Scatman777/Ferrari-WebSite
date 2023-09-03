@@ -211,9 +211,10 @@
 		}
 	}
 
-	@media (max-width: 705px) {
+	@media (max-width: 625px) {
 		.section-blank__body-blank {
-			background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0.00) 95.29%), url("/img/section-blank-image.svg"), lightgray 50% / cover no-repeat;
+			text-align: center;
+			background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0.00) 95.29%), url("/img/section-blank-image.svg") lightgray 50% / cover no-repeat;
 			padding: 25px 10px;
 		}
 
@@ -243,6 +244,8 @@
 			}
 
 			&:nth-child(2) {
+				width: 100%;
+
 				input {
 					width: 100%;
 				}
