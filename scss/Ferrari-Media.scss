@@ -176,7 +176,12 @@
 		}
 
 		.section-blank__title {
+			font-size: 24px;
 			margin-bottom: 30px;
+
+			span {
+				font-size: 24px;
+			}
 		}
 
 		.section-blank__column {
@@ -208,7 +213,6 @@
 
 		.section-services__title {
 			font-size: 32px;
-			
 		}
 
 		.section-services__text {

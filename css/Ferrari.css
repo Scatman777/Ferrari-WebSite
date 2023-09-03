@@ -1346,7 +1346,11 @@ body.touch .arrow {
     padding: 30px;
   }
   .section-blank__title {
+    font-size: 24px;
     margin-bottom: 30px;
+  }
+  .section-blank__title span {
+    font-size: 24px;
   }
   .section-blank__column {
     gap: 10px;
