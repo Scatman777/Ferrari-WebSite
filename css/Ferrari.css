@@ -457,6 +457,7 @@ body {
 
 .section-about__block-column {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
@@ -464,7 +465,7 @@ body {
 
 .section-about__item {
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   align-items: flex-start;
   max-width: 453px;
   width: 100%;
@@ -1482,7 +1483,7 @@ body.touch .arrow {
     font-size: 32px;
   }
   .section-about__item {
-    max-width: 100%;
+    max-width: 295px;
   }
   .section-about__icon {
     padding: 15px;
@@ -1513,6 +1514,7 @@ body.touch .arrow {
     font-size: 21px;
   }
   .section-about__icon {
+    padding: 8px;
     margin-bottom: 0px;
   }
   .section-about__icon img {
@@ -1523,7 +1525,7 @@ body.touch .arrow {
     font-size: 15px;
     margin-bottom: 0px;
   }
-  .section-about__text-column {
+  .section-about__text {
     font-size: 12px;
   }
 }

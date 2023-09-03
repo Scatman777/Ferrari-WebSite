@@ -316,6 +316,7 @@ body {
 
 .section-about__block-column {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 20px;
@@ -326,7 +327,7 @@ body {
 
 .section-about__item {
 	display: flex;
-	flex-direction: column;
+	flex-flow: column;
 	align-items: flex-start;
 	max-width: 453px;
 	width: 100%;
