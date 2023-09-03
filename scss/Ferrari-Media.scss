@@ -542,6 +542,20 @@
 
 	}
 
+	@media (max-width: $phone-500px) {
+		.section-info__title {
+			font-size: 21px;
+		}
+
+		.body-contact__item {
+			gap: 8px;
+		}
+		
+		.body-contact__block-text {
+			gap: 8px;
+		}
+	}
+
 	/////////////////// MEDIA__POPAP ///////////////////
 	@media (max-width: $tablet) {
 		.login-popap__content {
