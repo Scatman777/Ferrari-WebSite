@@ -1687,6 +1687,14 @@ body.touch .arrow {
   .body-contact__text-blank {
     font-size: 16px;
   }
+  .body-contact__input img {
+    width: 14px;
+    height: 14px;
+  }
+  .body-contact__flag img {
+    width: 28px;
+    height: 21px;
+  }
   .body-contact__button a {
     font-size: 15px;
   }
