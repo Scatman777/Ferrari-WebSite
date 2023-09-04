@@ -267,7 +267,7 @@
 						<div class="section-info__body">
 							<div class="section-info__body-modell body-modell">
 								<h1 class="body-modell__title">Список моделей</h1>
-								<div class="body-modell__swiper swiper mySwiper">
+								<div class="body-modell__swiper swiper">
 									<div class="body-modell__block-column swiper-wrapper">
 										<div class="body-modell__column swiper-slide">
 											<div class="body-modell__item">
@@ -501,7 +501,7 @@
 		</div>
 		<script src="./js/Ferrari.js"></script>
 		<script>
-			var swiper = new Swiper(".mySwiper", {
+			var swiper = new Swiper(".body-modell__swiper", {
 			  spaceBetween: 30,
 			  navigation: {
 				nextEl: ".swiper-button-next",
@@ -510,7 +510,7 @@
 			  pagination: {
 				el: ".swiper-pagination",
 			  },
-			  slidesPerView: 3,
+			  slidesPerView: 2,
 			  dots: false,
 			  mousewheel: true,
 			  keyboard: true,

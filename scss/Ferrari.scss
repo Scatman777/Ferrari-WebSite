@@ -447,14 +447,14 @@ body {
 .body-modell__swiper .swiper {
 }
 
-.body-modell__block-column .swiper-wrapper {
+.body-modell__swiper .swiper-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 75px 0px 50px 0px;
 }
 
-.body-modell__column .swiper-slide {
+.body-modell__swiper .swiper-slide {
 	width: 335px;
 	border: 1px solid $red;
 	border-radius: 20px;
