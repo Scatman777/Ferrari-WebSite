@@ -431,12 +431,15 @@ body {
 }
 
 /* SECTION-INFO */
+.section-info {
+	overflow: hidden;
+}
+
 .section-info__body {
 	margin-bottom: 100px;
 }
 
 .section-info__body-modell {
-	overflow: hidden;
 	margin-bottom: 100px;
 }
 
