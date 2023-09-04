@@ -444,27 +444,25 @@ body {
 	@include h1;
 }
 
-.body-modell__swiper .swiper {
+.swiper {
 }
 
-.body-modell__swiper .swiper-wrapper {
+.swiper__block-column .swiper-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 75px 0px 50px 0px;
+	min-width: 0;
 }
 
-.body-modell__swiper .swiper-slide {
-	width: 335px;
-	border: 1px solid $red;
-	border-radius: 20px;
-}
-
-.body-modell__item {
+.swiper__column .swiper-slide {
 	display: flex;
 	align-items: center;
+	max-width: 335px;
 	width: 100%;
 	height: 100%;
+	border: 1px solid $red;
+	border-radius: 20px;
 
 	img {
 		width: 130px;
