@@ -593,6 +593,7 @@ body {
 
 /* SECTION-INFO */
 .section-info__body {
+  overflow: hidden;
   margin-bottom: 100px;
 }
 
@@ -609,13 +610,14 @@ body {
   text-transform: uppercase;
 }
 
-.swiper-wrapper {
+.body-modell__block-column .swiper-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 75px 0px 50px 0px;
 }
 
-.swiper-slide {
+.body-modell__column .swiper-slide {
   width: 335px;
   border: 1px solid #F00;
   border-radius: 20px;

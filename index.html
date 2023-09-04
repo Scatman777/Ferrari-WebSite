@@ -267,9 +267,9 @@
 						<div class="section-info__body">
 							<div class="section-info__body-modell body-modell">
 								<h1 class="body-modell__title">Список моделей</h1>
-								<div class="swiper mySwiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
+								<div class="body-modell__swiper swiper mySwiper">
+									<div class="body-modell__block-column swiper-wrapper">
+										<div class="body-modell__column swiper-slide">
 											<div class="body-modell__item">
 												<img src="/img/section-info-img1.svg" alt="cover">
 												<div class="body-modell__block-text">
@@ -278,7 +278,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="swiper-slide">
+										<div class="body-modell__column swiper-slide">
 											<div class="body-modell__item">
 												<img src="/img/section-info-img2.svg" alt="cover">
 												<div class="body-modell__block-text">
@@ -287,7 +287,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="swiper-slide">
+										<div class="body-modell__column swiper-slide">
 											<div class="body-modell__item">
 												<img src="/img/section-info-img3.svg" alt="cover">
 												<div class="body-modell__block-text">
@@ -296,7 +296,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="swiper-slide">
+										<div class="body-modell__column swiper-slide">
 											<div class="body-modell__item">
 												<img src="/img/section-info-img4.svg" alt="cover">
 												<div class="body-modell__block-text">
@@ -503,8 +503,6 @@
 		<script>
 			var swiper = new Swiper(".mySwiper", {
 			  spaceBetween: 30,
-			  slidesToShow: 3,
-			  slidesToScroll: 1,
 			  navigation: {
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
@@ -512,6 +510,7 @@
 			  pagination: {
 				el: ".swiper-pagination",
 			  },
+			  slidesPerView: 3,
 			  dots: false,
 			  mousewheel: true,
 			  keyboard: true,
