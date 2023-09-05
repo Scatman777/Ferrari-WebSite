@@ -4,7 +4,7 @@ function buttonMap() {
 }
 
 var swiper = new Swiper(".swiper", {
-	spaceBetween: 20,
+	spaceBetween: 10,
 	navigation: {
 	  nextEl: ".swiper-button-next",
 	  prevEl: ".swiper-button-prev",
@@ -16,9 +16,10 @@ var swiper = new Swiper(".swiper", {
 	dots: false,
 	mousewheel: true,
 	keyboard: true,
-	breakpoits: {
+	breakpoints: {
 		630: {
-			spaceBetween: 10
+			spaceBetween: 20,
+			mousewheel: false
 		}
 	}
   });
@@ -37,4 +38,7 @@ var swiper = new Swiper(".swiper-work", {
 	dots: false,
 	mousewheel: true,
 	keyboard: true,
+	630: {
+		mousewheel: false
+	}
   });
