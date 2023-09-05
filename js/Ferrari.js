@@ -19,7 +19,7 @@ var swiper = new Swiper(".swiper", {
   });
 
   
-var swiper = new Swiper(".section-work__block-column", {
+var swiper = new Swiper(".swiper-work", {
 	spaceBetween: 20,
 	navigation: {
 	  nextEl: ".swiper-button-next",
