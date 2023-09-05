@@ -668,8 +668,6 @@ body {
   border: 1px solid #F00;
   border-radius: 50%;
   padding: 14px;
-  right: 140px !important;
-  left: auto;
 }
 .swiper-button-prev img, .swiper-rtl .swiper-button-next img {
   width: 32px;
@@ -681,8 +679,6 @@ body {
   border-radius: 50%;
   padding: 14px;
   transform: rotate(180deg);
-  left: 140px !important;
-  right: auto;
 }
 .swiper-button-next img, .swiper-rtl .swiper-button-prev img {
   width: 32px;
@@ -1654,6 +1650,9 @@ body.touch .arrow {
   }
 }
 @media (max-width: 875px) {
+  .swiper .swiper-slide {
+    min-width: 145px;
+  }
   .body-modell__text {
     font-size: 16px;
   }
