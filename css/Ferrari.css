@@ -1636,7 +1636,11 @@ body.touch .arrow {
     flex-direction: column;
   }
 }
+/* BODY-MODELL */
 @media (max-width: 630px) {
+  .body-modell__title {
+    font-size: 21px;
+  }
   .swiper .swiper-slide {
     min-width: 145px;
   }
@@ -1673,8 +1677,9 @@ body.touch .arrow {
     height: 16px;
   }
 }
+/* BODY-CONTACT */
 @media (max-width: 630px) {
-  .section-info__title {
+  .body-contact__title {
     font-size: 21px;
   }
   .body-contact__item {
@@ -1710,6 +1715,9 @@ body.touch .arrow {
   .body-contact__text-blank {
     font-size: 16px;
   }
+  .body-contact__input {
+    height: 48px;
+  }
   .body-contact__input img {
     width: 14px;
     height: 14px;
@@ -1723,6 +1731,9 @@ body.touch .arrow {
     height: 48px;
     padding: 14px 10px;
     font-size: 14px;
+  }
+  .body-contact__option:nth-child(2) {
+    display: none;
   }
   .body-contact__flag img {
     width: 28px;

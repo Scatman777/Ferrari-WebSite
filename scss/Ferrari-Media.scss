@@ -553,8 +553,13 @@
 			flex-direction: column;
 		}
 	}
-
+	
+	/* BODY-MODELL */
 	@media (max-width: $phone-630px) {
+		.body-modell__title {
+			font-size: 21px;
+		}
+
 		.swiper .swiper-slide {
 			min-width: 145px;
 
@@ -600,8 +605,9 @@
 		}
 	}
 
+	/* BODY-CONTACT */
 	@media (max-width: $phone-630px) {
-		.section-info__title {
+		.body-contact__title {
 			font-size: 21px;
 		}
 
@@ -652,7 +658,7 @@
 
 		.body-contact__input {
 			height: 48px;
-			
+
 			img {
 				width: 14px;
 				height: 14px;
@@ -669,6 +675,10 @@
 			height: 48px;
 			padding: 14px 10px;
 			font-size: 14px;
+		}
+
+		.body-contact__option:nth-child(2) {
+			display: none;
 		}
 
 		.body-contact__flag {
