@@ -17,3 +17,19 @@ var swiper = new Swiper(".swiper", {
 	mousewheel: true,
 	keyboard: true,
   });
+
+  
+var swiper = new Swiper(".swiper", {
+	spaceBetween: 20,
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+	watchOverflow: true,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+	dots: false,
+	mousewheel: true,
+	keyboard: true,
+  });
