@@ -122,7 +122,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630x) {
 		.section-main__body {
 			align-items: center;
 		}
@@ -211,7 +211,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.section-blank__body-blank {
 			text-align: center;
 			background: linear-gradient(176deg, #1A1A1A 4.25%, rgba(0, 0, 0, 0.00) 95.29%), url("/img/section-blank-image.svg") lightgray 50% / cover no-repeat;
@@ -304,7 +304,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.section-services__body {
 			gap: 40px;
 		}
@@ -369,7 +369,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.section-about__body {
 			gap: 40px;
 		}
@@ -434,7 +434,6 @@
 		}
 
 		.section-work__text-name {
-			width: 295px;
 			height: 45px;
 			padding: 10px;
 			font-size: 18px;
@@ -445,7 +444,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.section-work__title {
 			font-size: 21px;
 		}
@@ -455,6 +454,10 @@
 				width: 300px;
 				height: 200px;
 			}
+		}
+
+		.section-work__text-name {
+			font-size: 15px;
 		}
 	}
 
@@ -550,7 +553,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.swiper .swiper-slide {
 			min-width: 145px;
 
@@ -596,7 +599,7 @@
 		}
 	}
 
-	@media (max-width: $phone-500px) {
+	@media (max-width: $phone-630px) {
 		.section-info__title {
 			font-size: 21px;
 		}
