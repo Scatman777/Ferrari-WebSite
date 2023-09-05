@@ -635,7 +635,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
 }
 
 .body-modell__text {
@@ -1653,8 +1653,14 @@ body.touch .arrow {
   .swiper .swiper-slide {
     min-width: 145px;
   }
+  .body-modell__block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 11px 0px;
+  }
   .body-modell__text {
-    font-size: 16px;
+    font-size: 10px;
   }
   .body-modell__data {
     font-size: 10px;
