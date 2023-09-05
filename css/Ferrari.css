@@ -1593,10 +1593,10 @@ body.touch .arrow {
   .body-modell__title {
     font-size: 32px;
   }
-  .body-modell__block-column {
+  .swiper .swiper-wraper {
     margin: 40px 0px 30px 0px;
   }
-  .body-modell__item img {
+  .swiper .swiper-slide img {
     width: 115px;
     height: 55px;
   }
