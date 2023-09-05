@@ -1665,6 +1665,22 @@ body.touch .arrow {
   .body-modell__data {
     font-size: 10px;
   }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    stroke-width: 2px;
+    padding: 7px;
+  }
+  .swiper-button-prev img, .swiper-rtl .swiper-button-next img {
+    width: 16px;
+    height: 16px;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    stroke-width: 2px;
+    padding: 7px;
+  }
+  .swiper-button-next img, .swiper-rtl .swiper-button-prev img {
+    width: 16px;
+    height: 16px;
+  }
 }
 @media (max-width: 630px) {
   .section-info__title {

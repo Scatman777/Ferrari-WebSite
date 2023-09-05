@@ -569,6 +569,26 @@
 		.body-modell__data {
 			font-size: 10px;
 		}
+
+		.swiper-button-prev, .swiper-rtl .swiper-button-next{
+			stroke-width: 2px;
+			padding: 7px;
+		
+			img {
+				width: 16px;
+				height: 16px;
+			}
+		}
+		
+		.swiper-button-next, .swiper-rtl .swiper-button-prev{
+			stroke-width: 2px;
+			padding: 7px;
+		
+			img {
+				width: 16px;
+				height: 16px;
+			}
+		}
 	}
 
 	@media (max-width: $phone-500px) {
