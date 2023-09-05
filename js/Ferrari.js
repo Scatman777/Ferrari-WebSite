@@ -16,6 +16,11 @@ var swiper = new Swiper(".swiper", {
 	dots: false,
 	mousewheel: true,
 	keyboard: true,
+	breakpoits: {
+		630: {
+			spaceBetween: 10
+		}
+	}
   });
 
   
