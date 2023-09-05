@@ -553,6 +553,11 @@
 	@media (max-width: $phone) {
 		.swiper .swiper-slide {
 			min-width: 145px;
+
+			img {
+				width: 60px;
+				height: 28px;
+			}
 		}
 
 		.body-modell__block-text {

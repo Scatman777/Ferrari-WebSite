@@ -1653,6 +1653,10 @@ body.touch .arrow {
   .swiper .swiper-slide {
     min-width: 145px;
   }
+  .swiper .swiper-slide img {
+    width: 60px;
+    height: 28px;
+  }
   .body-modell__block-text {
     display: flex;
     flex-direction: column;
