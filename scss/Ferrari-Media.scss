@@ -550,6 +550,16 @@
 		}
 	}
 
+	@media (max-width: $phone) {
+		.body-modell__text {
+			font-size: 16px;
+		}
+
+		.body-modell__data {
+			font-size: 10px;
+		}
+	}
+
 	@media (max-width: $phone-500px) {
 		.section-info__title {
 			font-size: 21px;

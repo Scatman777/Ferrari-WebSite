@@ -1596,6 +1596,9 @@ body.touch .arrow {
   .swiper .swiper-wraper {
     margin: 40px 0px 30px 0px;
   }
+  .swiper .swiper-slide {
+    min-width: 295px;
+  }
   .swiper .swiper-slide img {
     width: 115px;
     height: 55px;
@@ -1648,6 +1651,14 @@ body.touch .arrow {
 @media (max-width: 905px) {
   .section-info__body-contact {
     flex-direction: column;
+  }
+}
+@media (max-width: 875px) {
+  .body-modell__text {
+    font-size: 16px;
+  }
+  .body-modell__data {
+    font-size: 10px;
   }
 }
 @media (max-width: 630px) {
