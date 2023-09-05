@@ -580,7 +580,7 @@
 		}
 
 		.swiper-button-prev, .swiper-rtl .swiper-button-next{
-			stroke-width: 2px;
+			border: 2px solid $red;
 			padding: 7px;
 		
 			img {
@@ -590,7 +590,7 @@
 		}
 		
 		.swiper-button-next, .swiper-rtl .swiper-button-prev{
-			stroke-width: 2px;
+			border: 2px solid $red;
 			padding: 7px;
 		
 			img {
@@ -638,6 +638,7 @@
 		}
 
 		.body-contact__block-blank {
+			width: 100%;
 			padding: 25px 10px;
 		}
 
@@ -650,10 +651,24 @@
 		}
 
 		.body-contact__input {
+			height: 48px;
+			
 			img {
 				width: 14px;
 				height: 14px;
 			}
+
+			input {
+				height: 48px;
+				padding: 14px 10px;
+				font-size: 14px;
+			}
+		}
+
+		.body-contact__select {
+			height: 48px;
+			padding: 14px 10px;
+			font-size: 14px;
 		}
 
 		.body-contact__flag {

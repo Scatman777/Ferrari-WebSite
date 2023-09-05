@@ -1276,6 +1276,7 @@ body.touch .arrow {
   }
   .section-main__group {
     margin-bottom: 138px;
+    transform: translateX(0px);
   }
   .section-main__down-text {
     font-size: 16px;
@@ -1656,7 +1657,7 @@ body.touch .arrow {
     font-size: 10px;
   }
   .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    stroke-width: 2px;
+    border: 2px solid #F00;
     padding: 7px;
   }
   .swiper-button-prev img, .swiper-rtl .swiper-button-next img {
@@ -1664,7 +1665,7 @@ body.touch .arrow {
     height: 16px;
   }
   .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    stroke-width: 2px;
+    border: 2px solid #F00;
     padding: 7px;
   }
   .swiper-button-next img, .swiper-rtl .swiper-button-prev img {
@@ -1700,6 +1701,7 @@ body.touch .arrow {
     height: 30px;
   }
   .body-contact__block-blank {
+    width: 100%;
     padding: 25px 10px;
   }
   .body-contact__title-blank {
@@ -1711,6 +1713,16 @@ body.touch .arrow {
   .body-contact__input img {
     width: 14px;
     height: 14px;
+  }
+  .body-contact__input input {
+    height: 48px;
+    padding: 14px 10px;
+    font-size: 14px;
+  }
+  .body-contact__select {
+    height: 48px;
+    padding: 14px 10px;
+    font-size: 14px;
   }
   .body-contact__flag img {
     width: 28px;
