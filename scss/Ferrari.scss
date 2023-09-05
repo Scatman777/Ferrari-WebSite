@@ -447,7 +447,7 @@ body {
 .swiper .swiper-countainer{
 }
 
-.swiper__block-column .swiper-wrapper {
+.swiper .swiper-wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -455,7 +455,7 @@ body {
 	min-width: 0;
 }
 
-.swiper__column .swiper-slide {
+.swiper .swiper-slide {
 	display: flex;
 	align-items: center;
 	max-width: 335px;

@@ -610,7 +610,7 @@ body {
   text-transform: uppercase;
 }
 
-.swiper__block-column .swiper-wrapper {
+.swiper .swiper-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -618,7 +618,7 @@ body {
   min-width: 0;
 }
 
-.swiper__column .swiper-slide {
+.swiper .swiper-slide {
   display: flex;
   align-items: center;
   max-width: 335px;
@@ -627,7 +627,7 @@ body {
   border: 1px solid #F00;
   border-radius: 20px;
 }
-.swiper__column .swiper-slide img {
+.swiper .swiper-slide img {
   width: 130px;
   height: 62px;
 }
