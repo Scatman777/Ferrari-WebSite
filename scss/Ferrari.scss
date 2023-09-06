@@ -682,10 +682,10 @@ body {
 }
 
 .footer__body {
+	position: relative;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
-	padding: 2.5rem 0px;
+	padding: 40px 0px;
 }
 
 .footer__block-up {
@@ -695,6 +695,8 @@ body {
 }
 
 .footer__logo {
+	margin-bottom: 30px;
+
 	img {
 		width: 185px;
 		height: 40px;
@@ -703,7 +705,7 @@ body {
 
 .footer__list {
 	display: flex;
-	gap: 2.5rem;
+	gap: 40px;
 }
 
 .footer__item {
@@ -714,6 +716,7 @@ body {
 
 .footer__button-up {
 	background: none;
+
 	img {
 		width: 24px;
 		height: 24px;
@@ -721,25 +724,29 @@ body {
 		border-radius: 50%;
 		padding: 4px;
 	}
+
 	a {
 		@include text-18px;
 		line-height: 140%;
 	}
 }
 
-.footer__block-down {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.footer__text-column {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+.footer__column {
 }
 
 .footer__text {
+	@include text-21px;
+	font-size: 16px;
+
+	&:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+
+.footer__political {
+	position: absolute;
+	bottom: 40px;
+	right: 0;
 	@include text-21px;
 	font-size: 16px;
 }

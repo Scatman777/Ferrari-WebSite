@@ -905,10 +905,10 @@ body {
 }
 
 .footer__body {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding: 2.5rem 0px;
+  padding: 40px 0px;
 }
 
 .footer__block-up {
@@ -917,6 +917,9 @@ body {
   align-items: center;
 }
 
+.footer__logo {
+  margin-bottom: 30px;
+}
 .footer__logo img {
   width: 185px;
   height: 40px;
@@ -924,7 +927,7 @@ body {
 
 .footer__list {
   display: flex;
-  gap: 2.5rem;
+  gap: 40px;
 }
 
 .footer__item a {
@@ -954,19 +957,22 @@ body {
   line-height: 140%;
 }
 
-.footer__block-down {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer__text-column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .footer__text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 140%;
+  font-size: 16px;
+}
+.footer__text:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer__political {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
   color: #FFF;
   font-family: Montserrat;
   font-size: 21px;
@@ -1634,6 +1640,7 @@ body.touch .arrow {
 @media (max-width: 905px) {
   .section-info__body-contact {
     flex-direction: column;
+    gap: 40px;
   }
 }
 /* BODY-MODELL */
@@ -1732,7 +1739,7 @@ body.touch .arrow {
     padding: 14px 10px;
     font-size: 14px;
   }
-  .body-contact__option:nth-child(2) {
+  .body-contact__option:nth-child(1) {
     display: none;
   }
   .body-contact__flag img {
@@ -1743,6 +1750,46 @@ body.touch .arrow {
     font-size: 15px;
   }
   .body-contact__text-down {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1074px) {
+  .footer__logo img {
+    width: 139px;
+    height: 30px;
+  }
+  .footer__list {
+    gap: 30px;
+  }
+  .footer__item a {
+    font-size: 16px;
+  }
+  .footer__button-up {
+    padding: 5px;
+  }
+  .footer__button-up img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer__button-up a {
+    font-size: 16px;
+  }
+  .footer__text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 630px) {
+  .footer__logo {
+    width: 111px;
+    height: 24px;
+  }
+  .footer__list {
+    gap: 20px;
+  }
+  .footer__item {
+    font-size: 12px;
+  }
+  .footer__text {
     font-size: 12px;
   }
 }
