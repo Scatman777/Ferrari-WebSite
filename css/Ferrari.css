@@ -940,11 +940,14 @@ body {
 }
 
 .footer__button-up {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: none;
 }
 .footer__button-up img {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   background: #F00;
   border-radius: 50%;
   padding: 4px;
@@ -974,7 +977,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer__political {
+.footer__confidentiality {
   position: absolute;
   bottom: 40px;
   right: 0;
@@ -1763,9 +1766,11 @@ body.touch .arrow {
     width: 139px;
     height: 30px;
   }
+  .footer__block-up {
+    margin: 0px;
+  }
   .footer__list {
     gap: 30px;
-    margin: 0px;
   }
   .footer__item a {
     font-size: 16px;
@@ -1774,8 +1779,8 @@ body.touch .arrow {
     padding: 5px;
   }
   .footer__button-up img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   .footer__button-up a {
     font-size: 16px;
@@ -1784,15 +1789,28 @@ body.touch .arrow {
     font-size: 16px;
   }
 }
+@media (max-width: 875px) {
+  .footer__body {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__block-up {
+    margin-bottom: 5px;
+  }
+  .footer__confidentiality {
+    position: relative;
+    bottom: 0;
+  }
+}
 @media (max-width: 630px) {
-  .footer__logo {
+  .footer__logo img {
     width: 111px;
     height: 24px;
   }
   .footer__list {
     gap: 20px;
   }
-  .footer__item {
+  .footer__item a {
     font-size: 12px;
   }
   .footer__text {

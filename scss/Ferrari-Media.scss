@@ -727,8 +727,8 @@
 			padding: 5px;
 
 			img {
-				width: 20px;
-				height: 20px;
+				width: 30px;
+				height: 30px;
 			}
 
 			a {
@@ -741,10 +741,28 @@
 		}
 	}
 
+	@media (max-width: $phone) {
+		.footer__body {
+			flex-direction: column;
+			gap: 20px;
+		}
+
+		.footer__block-up {
+			margin-bottom: 5px;
+		}
+
+		.footer__confidentiality {
+			position: relative;
+			bottom: 0;
+		} 
+	}
+
 	@media (max-width: $phone-630px) {
 		.footer__logo {
-			width: 111px;
-			height: 24px;
+			img {
+				width: 111px;
+				height: 24px;
+			}
 		}
 
 		.footer__list {
@@ -752,7 +770,9 @@
 		}
 
 		.footer__item {
-			font-size: 12px;
+			a {
+				font-size: 12px;
+			}
 		}
 
 		.footer__text {
