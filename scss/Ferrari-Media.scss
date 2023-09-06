@@ -700,6 +700,17 @@
 		}
 	}
 
+	/* MEDIA__SECTION-INFO */
+	@media (max-width: $phone-630px) {
+		.section-map {
+			background-position: 53%;
+		}
+
+		.section-map__block-map {
+			left: 35%;
+		}
+	}
+
 	/////////////////// MEDIA__FOOTER ///////////////////
 	@media (max-width: $tablet) {
 		.footer__logo {
@@ -724,11 +735,10 @@
 		}
 
 		.footer__button-up {
-			padding: 5px;
-
 			img {
 				width: 30px;
 				height: 30px;
+				padding: 5px;
 			}
 
 			a {

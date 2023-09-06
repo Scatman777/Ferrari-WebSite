@@ -1775,12 +1775,10 @@ body.touch .arrow {
   .footer__item a {
     font-size: 16px;
   }
-  .footer__button-up {
-    padding: 5px;
-  }
   .footer__button-up img {
     width: 30px;
     height: 30px;
+    padding: 5px;
   }
   .footer__button-up a {
     font-size: 16px;
