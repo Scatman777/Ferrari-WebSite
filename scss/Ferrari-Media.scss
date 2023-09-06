@@ -841,4 +841,73 @@
 			font-size: 16px;
 		}
 	}
+
+	@media (max-width: 700px) {
+		.login-popap__content {
+			width: 300px;
+			padding: 25px 10px;
+			background: $black url("/css/img/Popap-Phone-img.svg") center no-repeat;
+		}
+
+		.login-popap__close {
+			top: 23px;
+			right: 10px;
+
+			img {
+				width: 24px;
+				height: 24px;
+			}
+		}
+
+		.login-popap__column-title {
+			margin-bottom: 25px;
+		}
+
+		.login-popap__title {
+			font-size: 21px;
+		}
+
+		.login-popap__text {
+			font-size: 16px;
+		}
+
+		.login-popap__block-input {
+			gap: 25px;
+		}
+
+		.block-input__column-input {
+			gap: 10px;
+			height: 48px;
+
+			img {
+				width: 14px;
+				height: 14px;
+			}
+		
+			input {
+				width: 100%;
+				height: 48px;
+				font-size: 14px;
+			}
+		}
+
+		.block-input__flag {
+			img {
+				width: 28px;
+				height: 21px;
+			}
+		}
+
+		.block-input__button {
+			padding: 15.62px 62px;
+
+			a {
+				font-size: 15px;
+			}
+		}
+
+		.block-input__text-profile {
+			font-size: 12px;
+		}
+	}
 }
