@@ -907,16 +907,15 @@ body {
 .footer__body {
   position: relative;
   display: flex;
-  flex-direction: column;
   padding: 40px 0px;
 }
 
 .footer__block-up {
-  display: flex;
-  margin: 20px 0px;
-  justify-content: space-between;
   flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-start;
+  margin: 20px 0px;
 }
 
 .footer__logo {
@@ -1766,6 +1765,7 @@ body.touch .arrow {
   }
   .footer__list {
     gap: 30px;
+    margin: 0px;
   }
   .footer__item a {
     font-size: 16px;
