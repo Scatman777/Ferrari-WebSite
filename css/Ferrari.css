@@ -1793,9 +1793,14 @@ body.touch .arrow {
   .footer__body {
     flex-direction: column;
     gap: 20px;
+    padding: 60px 0px 40px 0px;
   }
   .footer__block-up {
+    align-items: flex-end;
     margin-bottom: 5px;
+  }
+  .footer__list {
+    flex-direction: column;
   }
   .footer__confidentiality {
     position: relative;
@@ -1803,9 +1808,15 @@ body.touch .arrow {
   }
 }
 @media (max-width: 630px) {
+  .footer__logo {
+    margin-bottom: 20px;
+  }
   .footer__logo img {
     width: 111px;
     height: 24px;
+  }
+  .footer__text {
+    font-size: 12px;
   }
   .footer__list {
     gap: 20px;
@@ -1813,7 +1824,17 @@ body.touch .arrow {
   .footer__item a {
     font-size: 12px;
   }
-  .footer__text {
+  .footer__button-up {
+    gap: 8px;
+  }
+  .footer__button-up img {
+    width: 24px;
+    height: 24px;
+  }
+  .footer__button-up a {
+    font-size: 12px;
+  }
+  .footer__confidentiality {
     font-size: 12px;
   }
 }

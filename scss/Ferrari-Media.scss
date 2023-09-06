@@ -745,10 +745,16 @@
 		.footer__body {
 			flex-direction: column;
 			gap: 20px;
+			padding: 60px 0px 40px 0px;
 		}
 
 		.footer__block-up {
+			align-items: flex-end;
 			margin-bottom: 5px;
+		}
+
+		.footer__list {
+			flex-direction: column;
 		}
 
 		.footer__confidentiality {
@@ -759,10 +765,16 @@
 
 	@media (max-width: $phone-630px) {
 		.footer__logo {
+			margin-bottom: 20px;
+
 			img {
 				width: 111px;
 				height: 24px;
 			}
+		}
+
+		.footer__text {
+			font-size: 12px;
 		}
 
 		.footer__list {
@@ -775,7 +787,20 @@
 			}
 		}
 
-		.footer__text {
+		.footer__button-up {
+			gap: 8px;
+
+			img {
+				width: 24px;
+				height: 24px;
+			}
+
+			a {
+				font-size: 12px;
+			}
+		}
+
+		.footer__confidentiality {
 			font-size: 12px;
 		}
 	}
