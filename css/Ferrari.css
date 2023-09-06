@@ -1761,6 +1761,20 @@ body.touch .arrow {
     font-size: 12px;
   }
 }
+/* MEDIA__SECTION-INFO */
+@media (max-width: 630px) {
+  .section-map {
+    background-position: 53%;
+  }
+  .section-map__block-map {
+    left: 35%;
+  }
+}
+@media (max-width: 475px) {
+  .section-map__block-map {
+    left: 25.5%;
+  }
+}
 @media (max-width: 1074px) {
   .footer__logo img {
     width: 139px;

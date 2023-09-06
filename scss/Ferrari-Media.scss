@@ -711,6 +711,12 @@
 		}
 	}
 
+	@media (max-width: 475px) {
+		.section-map__block-map {
+			left: 25.5%;
+		}
+	}
+
 	/////////////////// MEDIA__FOOTER ///////////////////
 	@media (max-width: $tablet) {
 		.footer__logo {
