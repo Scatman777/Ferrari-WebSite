@@ -913,8 +913,10 @@ body {
 
 .footer__block-up {
   display: flex;
+  margin: 20px 0px;
   justify-content: space-between;
-  align-items: center;
+  flex: 1 1 auto;
+  align-items: flex-start;
 }
 
 .footer__logo {
@@ -955,6 +957,10 @@ body {
   font-weight: 600;
   line-height: normal;
   line-height: 140%;
+}
+
+.footer__column {
+  flex: 1 1 auto;
 }
 
 .footer__text {

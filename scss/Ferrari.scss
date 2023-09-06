@@ -690,8 +690,10 @@ body {
 
 .footer__block-up {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    margin: 20px 0px;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    align-items: flex-start;
 }
 
 .footer__logo {
@@ -732,6 +734,7 @@ body {
 }
 
 .footer__column {
+	flex: 1 1 auto;
 }
 
 .footer__text {
