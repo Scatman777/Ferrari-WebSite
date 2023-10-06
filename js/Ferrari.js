@@ -1,5 +1,5 @@
 function buttonMap() {
-	document.getElementById("Map").style.backgroundImage = "url('/css/img/Mapsicle Map Black.svg')"
+	document.getElementById("Map").style.backgroundImage = "url('./css/img/Mapsicle Map Black.svg')"
 	document.getElementById("Display").style.display = "block"
 }
 
