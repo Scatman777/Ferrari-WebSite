@@ -181,7 +181,7 @@ body {
 }
 
 .section-main {
-  background: url("/img/image 20.svg") bottom right no-repeat, url("/img/F812 SUPER.svg") 56% 43.3% no-repeat, url("/img/Ferrari-logo-back.svg") right no-repeat;
+  background: url("./img/image 20.svg") bottom right no-repeat, url("./img/F812 SUPER.svg") 56% 43.3% no-repeat, url("./img/Ferrari-logo-back.svg") right no-repeat;
 }
 
 /* SECTION-MAIN */
@@ -280,7 +280,7 @@ body {
 
 /* SECTION-BLANK */
 .section-blank__body-blank {
-  background: url("/img/section-blank-image.svg") right no-repeat;
+  background: url("./img/section-blank-image.svg") right no-repeat;
   border: 1px solid #F00;
   border-radius: 10px;
   padding: 40px;
@@ -372,7 +372,7 @@ body {
 
 /* SECTION-SERVICES */
 .section-services {
-  background: url("/img/Ferrari-Back.svg") left 67% no-repeat;
+  background: url("./img/Ferrari-Back.svg") left 67% no-repeat;
 }
 
 .section-services__body {
@@ -853,7 +853,7 @@ body {
 
 /* SECTION-MAP */
 .section-map {
-  background: url("/img/Mapsicle Map.svg") center no-repeat;
+  background: url("./img/Mapsicle Map.svg") center no-repeat;
   background-size: cover;
   width: 100%;
   height: 550px;
