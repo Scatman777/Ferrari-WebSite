@@ -1,6 +1,6 @@
 function buttonMap() {
-	document.getElementById("Map").style.backgroundImage = "url('./css/img/Mapsicle Map Black.svg')"
-	document.getElementById("Display").style.display = "block"
+	document.getElementById("Map").style.backgroundImage = "url('./css/img/Mapsicle Map Black.svg')";
+	document.getElementById("Display").style.display = "block";
 }
 
 var swiper = new Swiper(".swiper", {
